@@ -1,12 +1,12 @@
 import React from "react";
 import axios from "axios";
 import { GetServerSideProps } from "next";
-import Footer from "../../../components/footer";
-import Navbar from "../../../components/navbar";
-import favicon from "../../../public/assets/favicon.png";
+import Footer from "../../components/footer";
+import Navbar from "../../components/navbar";
+import favicon from "../../public/assets/favicon.png";
 import Head from "next/head";
 import { ParsedUrlQuery } from "querystring";
-import BlogPost from "../../../components/blogPost";
+import BlogPost from "../../components/blogPost";
 
 interface Params extends ParsedUrlQuery {
   slug: string;
@@ -48,7 +48,7 @@ const BlogPage = ({ blog }: any) => {
   const url = `https://privhealth.co/blog/${blog.attributes.slug}`;
   return (
     <div>
-      <Head>
+      {/* <Head>
         <meta charSet="UTF-8" />
         <title>{`${blog.attributes.seo.metaTitle} - Skeen Health`}</title>
         <meta name="generator" content="SEOmatic" />
@@ -136,7 +136,7 @@ const BlogPage = ({ blog }: any) => {
           hrefLang="x-default"
           rel="alternate"
         />
-      </Head>
+      </Head> */}
       <Navbar />
       <BlogPost blog={blog} />
       <Footer />
