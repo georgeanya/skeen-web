@@ -29,8 +29,9 @@ const Section1 = () => {
         <p className="text-[28px] leading-9 md:text-start md:text-4xl md:max-w-xl font-bold mr-3 md:mr-0  ">
           What&apos;s your skin concern?
         </p>
-        <div className="mt-[60xp] md:mt-0">
-          <hr className="mt-6 md:mt-[60px] mb-6 md:mb-6 hidden md:flex" />
+        <div className="">
+          <div className="h-[60px] md:hidden"></div>
+          <hr className="md:mt-[60px] mb-6 md:mb-6 hidden md:flex" />
           <div className="flex justify-between items-center ">
             <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
               Acne
