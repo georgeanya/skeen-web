@@ -1,4 +1,4 @@
-import Hero from "../components/hero";
+import Hero from "../components/acne-hero";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Section2 from "../components/section2";
@@ -7,7 +7,7 @@ import Head from "next/head";
 import favicon from "../public/assets/favicon.png";
 import metaCard from "../public/assets/skeen-metacard.png";
 import Script from "next/script";
-import Section1 from "@/components/section1";
+import Section1 from "@/components/acne-section1";
 import Section3 from "@/components/section3";
 import Section4 from "@/components/section4";
 import Section5 from "@/components/section5";
