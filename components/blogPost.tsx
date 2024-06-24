@@ -10,7 +10,7 @@ import { ParsedUrlQuery } from "querystring";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Moment from "react-moment";
-import style from "../src/pages/blog/markdown-styles.module.css";
+import style from "../pages/blog/markdown-styles.module.css";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 import Link from "next/link";
 
