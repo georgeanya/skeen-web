@@ -33,7 +33,7 @@ const Section2 = () => {
       <div className="max-w-xl min-w-full mt-12 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
         <div>
           <div className="">
-            <div className="relative mb-7">
+            <div className="relative mb-6 md:mb-7">
               <Image src={no1} alt="" className="absolute ml-3 mt-3" />
               <Image src={rectangle1} alt="" />
             </div>
@@ -51,7 +51,7 @@ const Section2 = () => {
 
         <div>
           <div className="mt-[50px] md:mt-0">
-            <div className="relative mb-7">
+            <div className="relative mb-6 md:mb-7">
               <Image src={no2} alt="" className="absolute ml-3 mt-3" />
               <Image src={rectangle2} alt="" />
             </div>
@@ -69,7 +69,7 @@ const Section2 = () => {
 
         <div>
           <div className="mt-[50px] md:mt-0">
-            <div className="relative mb-7">
+            <div className="relative mb-6 md:mb-7">
               <Image src={no3} alt="" className="absolute ml-3 mt-3" />
               <Image src={rectangle3} alt="" />
             </div>
