@@ -34,8 +34,8 @@ const Section5 = () => {
         <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] mt-6 md:mt-7 mb-1. font-medium">Rahmah Olubiyi</p>
         <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884]">Co-founder</p>
       </div>
-      <div className="  flex md:pr-[75px] md:pt-[120px] justify-end">
-        <img src={hero.src} alt="hero" className="md: max-w-[405px] flex"/>
+      <div className="flex md:pr-[75px] md:pt-[120px] md:justify-end">
+        <img src={hero.src} alt="hero" className="md: md:max-w-[405px] flex"/>
       </div>
     </div>
   );

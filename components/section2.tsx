@@ -50,7 +50,7 @@ const Section2 = () => {
         </div>
 
         <div>
-          <div className="">
+          <div className="mt-[50px] md:mt-0">
             <div className="relative mb-7">
               <Image src={no2} alt="" className="absolute ml-3 mt-3" />
               <Image src={rectangle2} alt="" />
@@ -68,7 +68,7 @@ const Section2 = () => {
         </div>
 
         <div>
-          <div className="">
+          <div className="mt-[50px] md:mt-0">
             <div className="relative mb-7">
               <Image src={no3} alt="" className="absolute ml-3 mt-3" />
               <Image src={rectangle3} alt="" />
