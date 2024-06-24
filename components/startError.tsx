@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -32,7 +32,7 @@ const StartError = ({ toggle, toggleFav }: props) => {
         Please make sure we’ve got your details right and try again.
       </p>
       <Link href="/book-consultation">
-        <SustainButton
+        <SkeenButton
           className="self-center text-sm md:text-base font-medium"
           type="submit"
           onClick={() => {
@@ -41,7 +41,7 @@ const StartError = ({ toggle, toggleFav }: props) => {
           }}
         >
           Try again
-        </SustainButton>
+        </SkeenButton>
       </Link>
     </div>
   );

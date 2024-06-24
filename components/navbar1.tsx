@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -16,7 +16,7 @@ const SustainButton = styled(Button)({
 const Navbar = () => {
   return (
     <div>
-      <div className="px-5 md:px-32 py-[23px] md:py-[35px] ">
+      <div className="px-5 md:px-[125px] py-[23px] md:py-[35px] ">
         <nav>
           <div className="container flex flex-wrap  justify-center items-center mx-auto">
             <Link href="/" className="flex self-center">

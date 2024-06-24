@@ -26,11 +26,11 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
           )}
         </div>
         <div className="self-center">
-          <p className="text-lg md:text-2xl text-[#333D47] font-medium">
+          <p className="text-lg md:text-2xl text-[#333D47] md:leading-[30px] font-medium">
             {faq.question}
           </p>
           {faq.open ? (
-            <p className="text-base md:text-xl text-[#61616B] mt-2 md:my-6">
+            <p className="text-base md:text-xl md:leading-[30px] text-[#61616B] mt-2 md:mt-6">
               {faq.answer}
             </p>
           ) : (
@@ -38,7 +38,7 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
           )}
         </div>
       </div>
-      <hr className="my-6 md:my-8 mb-6 md:mb-8" />
+      <hr className="my-6 md:my-[34px] " />
     </div>
   );
 };

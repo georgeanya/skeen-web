@@ -7,7 +7,7 @@ import fbook from "../public/assets/fbook.svg";
 import insta from "../public/assets/insta.svg";
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -22,7 +22,7 @@ const SustainButton = styled(Button)({
 
 const Footer = () => {
   return (
-    <div className="bg-[#181C26] md:px-32 px-5 md:pt-36 pt-24 text-white">
+    <div className="bg-[#181C26] md:px-[125px] px-5 md:pt-36 pt-24 text-white">
       <div className="text-center">
         <p className="text-3xl md:text-5xl font-bold mb-6">
           Start improving your skin
@@ -32,9 +32,9 @@ const Footer = () => {
           help you find relief
         </p>
         <Link href="/book-consultation">
-          <SustainButton className="self-center text-sm md:text-base font-medium">
+          <SkeenButton className="self-center text-sm md:text-base font-medium">
             Get started today
-          </SustainButton>
+          </SkeenButton>
         </Link>
       </div>
       <hr className="md:mt-36 mt-28 md:mb-24 mb-20" />

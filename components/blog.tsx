@@ -125,7 +125,7 @@ const Blog = ({ initialBlogs }: any) => {
 
   return (
     <div>
-      <div className="px-5 md:px-32 md:mb-24 mb-15">
+      <div className="px-5 md:px-[125px] md:mb-24 mb-15">
         <p className=" text-sm md:text-[18px] leading-[24px] font-normal mt-[60px] md:mt-[70px] text-[#111111]">
           <span className=" font-bold">Blog</span> | The latest stories and
           updates from the team
@@ -165,7 +165,7 @@ const Blog = ({ initialBlogs }: any) => {
         </div>
       </div>
       <div>
-        <div className="px-5 md:px-32 mb-24">
+        <div className="px-5 md:px-[125px] mb-24">
           <div className="hidden md:block">
             <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400">
               <li className="mr-2 cursor-pointer">
@@ -308,7 +308,7 @@ const Blog = ({ initialBlogs }: any) => {
           <SustainOutlineButton>Show more posts</SustainOutlineButton>
         </div>
       </div>
-      {/* <div className="px-5 md:px-32 md:pt-28 pt-20 md:pb-28 pb-20 bg-[#EFF2FA]">
+      {/* <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-28 pb-20 bg-[#EFF2FA]">
         <p className="md:text-4xl text-2xl text-[#111111] font-bold max-w-[476px]">
           Stay updated by joining our newsletter
         </p>
@@ -322,7 +322,7 @@ const Blog = ({ initialBlogs }: any) => {
             placeholder="Enter your email"
             className="border mb-4 md:mb-0 h-12 md:h-15 md:max-w-[462px] border-gray-300 text-gray-900 text-sm rounded-2xl  block w-full p-2.5 md:mr-5"
           />
-          <SustainButton>Subscribe</SustainButton>
+          <SkeenButton>Subscribe</SkeenButton>
         </form>
       </div> */}
     </div>

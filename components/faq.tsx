@@ -5,7 +5,7 @@ import { styled } from "@mui/material/styles";
 import { useState } from "react";
 import FAQ from "./faqsection";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -34,7 +34,7 @@ const Faq = () => {
     },
     {
       question: "How much does it cost to consult a doctor on Skeen?",
-      answer: "It cost 5,000 naira to consult a doctor on Skeen",
+      answer: "It cost 10,000 naira to consult a doctor on Skeen",
       open: false,
     },
     {
@@ -67,7 +67,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="px-5 md:px-32 md:pt-28 pt-20 md:pb-36 pb-24">
+    <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-36 pb-24">
       <p className=" text-3xl md:text-start md:text-4xl md:max-w-xl font-bold text-[#3E7EEE] mb-14 pr-8">
         Frequently asked questions
       </p>

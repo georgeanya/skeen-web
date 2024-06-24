@@ -8,7 +8,7 @@ import support from "../public/assets/support.svg";
 
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#f8f8f8 !important",
   fontFamily: "Circular Std",
   color: "#222E50",
@@ -24,16 +24,16 @@ const SustainButton = styled(Button)({
 
 const Section1 = () => {
   return (
-    <div className="px-5 md:px-32 md:pt-28 pt-20 md:pb-28 pb-20 bg-[#222E50] text-white flex ">
+    <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-28 pb-20 bg-[#222E50] text-white flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:min-w-[360px] font-bold mr-3 md:mr-0  ">
           What you should know about Acne
         </p>
         <div className="md:mt-[37px] mt-[28px] ">
           <Link href="/book-consultation">
-            <SustainButton className="text-xs md:text-base font-medium">
+            <SkeenButton className="text-xs md:text-base font-medium">
               Start your consultation
-            </SustainButton>
+            </SkeenButton>
           </Link>
         </div>
       </div>

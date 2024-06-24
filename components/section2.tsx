@@ -10,8 +10,8 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
-  background: "#4F9EEA !important",
+const SkeenButton = styled(Button)({
+  background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
   cursor: "pointer",
@@ -26,8 +26,8 @@ const SustainButton = styled(Button)({
 
 const Section2 = () => {
   return (
-    <div className="px-5 md:px-32 md:pt-[120px] pt-20 md:pb-36 pb-[90px]">
-      <p className=" text-3xl md:text-start md:text-4xl md:max-w-xl font-bold text-[#4F9EEA]">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-[90px]">
+      <p className=" text-3xl md:text-start md:text-4xl md:max-w-xl font-bold text-[#3E7EEE]">
         How Skeen works
       </p>
       <div className="max-w-xl min-w-full mt-12 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
@@ -87,9 +87,9 @@ const Section2 = () => {
       </div>
       <div className="md:mt-[60px] mt-10">
         <Link href="/book-consultation">
-          <SustainButton className="text-xs lg:text-base font-medium">
+          <SkeenButton className="text-xs md:text-base font-medium">
             Get started now
-          </SustainButton>
+          </SkeenButton>
         </Link>
       </div>
     </div>

@@ -14,7 +14,7 @@ import style from "../pages/blog/markdown-styles.module.css";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -174,7 +174,7 @@ const BlogPost = ({ blog }: any) => {
               </div>
               <div className="self-center">
                 <Link href="/">
-                  <SustainButton>Book a consultation now</SustainButton>
+                  <SkeenButton>Book a consultation now</SkeenButton>
                 </Link>
               </div>
             </div>
@@ -191,7 +191,7 @@ const BlogPost = ({ blog }: any) => {
           </div>
         </div>
       </div>
-      {/* <div className="px-5 md:px-32 md:pt-28 pt-20 md:pb-28 pb-20 bg-[#EFF2FA]">
+      {/* <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-28 pb-20 bg-[#EFF2FA]">
         <p className="md:text-4xl text-2xl text-[#111111] font-bold max-w-[476px]">
           Stay updated by joining our newsletter
         </p>
@@ -205,7 +205,7 @@ const BlogPost = ({ blog }: any) => {
             placeholder="Enter your email"
             className="border mb-4 md:mb-0 h-12 md:h-15 md:max-w-[462px] border-gray-300 text-gray-900 text-sm rounded-2xl  block w-full p-2.5 md:mr-5"
           />
-          <SustainButton>Subscribe</SustainButton>
+          <SkeenButton>Subscribe</SkeenButton>
         </form>
       </div> */}
     </div>

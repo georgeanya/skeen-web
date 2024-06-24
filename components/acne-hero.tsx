@@ -5,8 +5,8 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
-  background: "#4F9EEA !important",
+const SkeenButton = styled(Button)({
+  background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
   cursor: "pointer",
@@ -21,21 +21,21 @@ const SustainButton = styled(Button)({
 
 const Hero = () => {
   return (
-    <div className="px-5 lg:px-32 pb-20 lg:pb-36 flex flex-col lg:flex-row lg:justify-between">
-      <div className="md:max-w-md lg:max-w-lg pt-[42px] pb-17 lg:pb-0 lg:pt-[130px]">
-        <p className="text-[34px] lg:text-start lg:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
+    <div className="px-5 md:px-[125px] pb-20 md:pb-36 flex flex-col md:flex-row md:justify-between">
+      <div className="md:max-w-md md:max-w-lg pt-[42px] pb-17 md:pb-0 md:pt-[130px]">
+        <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
           Get expert Acne treatment online
         </p>
-        <p className="mt-5 md:mt-6 text-base font-normal lg:pr-8 lg:text-start lg:md:text-[20px] leading-7 text-[#333D47]">
+        <p className="mt-5 md:mt-6 text-base font-normal md:pr-8 md:text-start md:md:text-[20px] leading-7 text-[#333D47]">
           Get effective Acne treatments that works. Prescribed online by
           licensed dermatology providers. No appointments, waiting rooms, or
           pharmacy visits
         </p>
         <div className="mt-8 ">
           <Link href="/book-consultation">
-            <SustainButton className="text-xs lg:text-base font-medium">
+            <SkeenButton className="text-xs md:text-base font-medium">
               Get started now
-            </SustainButton>
+            </SkeenButton>
           </Link>
         </div>
       </div>

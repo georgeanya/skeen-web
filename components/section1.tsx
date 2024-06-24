@@ -8,7 +8,7 @@ import support from "../public/assets/support.svg";
 
 import Link from "next/link";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#f8f8f8 !important",
   fontFamily: "Circular Std",
   color: "#222E50",
@@ -24,7 +24,7 @@ const SustainButton = styled(Button)({
 
 const Section1 = () => {
   return (
-    <div className="px-5 md:px-32 md:pt-[120px] pt-20 md:pb-28 pb-20 bg-[#222E50] text-white grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 md:gap-[138px] gap-4">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-20 bg-[#222E50] text-white grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 md:gap-[138px] gap-4">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-4xl md:max-w-xl font-bold mr-3 md:mr-0  ">
           What&apos;s your skin concern?
@@ -99,9 +99,9 @@ const Section1 = () => {
         </p>
         <div className="mt-10  ">
           <Link href="/book-consultation">
-            <SustainButton className="text-xs md:text-base font-medium">
+            <SkeenButton className="text-xs md:text-base font-medium">
               Start your consultation
-            </SustainButton>
+            </SkeenButton>
           </Link>
         </div>
       </div>

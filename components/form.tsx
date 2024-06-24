@@ -8,7 +8,7 @@ import lock from "../public/assets/lock.svg";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -188,13 +188,13 @@ const Form = () => {
           </p>
         </div>
 
-        <div className="mb-15 lg:mb-28">
-          <SustainButton
+        <div className="mb-15 md:mb-28">
+          <SkeenButton
             className="self-center text-sm md:text-base font-medium"
             onClick={() => setIsReadyFunc()}
           >
             <p>I understand</p>
-          </SustainButton>
+          </SkeenButton>
         </div>
       </div>
 
@@ -329,16 +329,16 @@ const Form = () => {
               </a>
             </p>
           </div>
-          <div className="mb-15 lg:mb-28">
+          <div className="mb-15 md:mb-28">
             {isLoading ? (
-              <SustainButton
+              <SkeenButton
                 className="self-center text-sm md:text-base font-medium"
                 type="submit"
               >
                 <p>Get started</p>
-              </SustainButton>
+              </SkeenButton>
             ) : (
-              <SustainButton
+              <SkeenButton
                 className="self-center text-sm md:text-base font-medium disabled:opacity-65"
                 type="submit"
               >
@@ -358,7 +358,7 @@ const Form = () => {
                   </svg>
                   <span className="sr-only">Loading...</span>
                 </div>
-              </SustainButton>
+              </SkeenButton>
             )}
           </div>
         </form>

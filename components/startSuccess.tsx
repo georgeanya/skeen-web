@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 import Head from "next/head";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -38,12 +38,12 @@ const StartSuccess = () => {
           to complete your membership!
         </p>
         <Link href="https://t.me/+gtiqLBOz-WxiOTVk">
-          <SustainButton
+          <SkeenButton
             className="self-center text-sm md:text-base font-medium"
             type="submit"
           >
             Join our Telegram community
-          </SustainButton>
+          </SkeenButton>
         </Link>
       </div>
     </div>

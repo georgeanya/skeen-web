@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-const SustainButton = styled(Button)({
+const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="px-5 md:px-32 py-5">
+      <div className="px-5 md:px-[125px] py-5">
         <nav>
           <div className="container flex flex-wrap justify-between items-center mx-auto">
             <Link href="/">
@@ -123,9 +123,9 @@ const Navbar = () => {
                 </li>
                 <li className="ml-8">
                   <Link href="/book-consultation">
-                    <SustainButton className="text-sm">
+                    <SkeenButton className="text-sm">
                       Get started now
-                    </SustainButton>
+                    </SkeenButton>
                   </Link>
                 </li>
               </ul>
@@ -152,9 +152,7 @@ const Navbar = () => {
               </li>
               <li className="mt-3">
                 <Link href="/book-consultation">
-                  <SustainButton className="text-sm ">
-                    Get started
-                  </SustainButton>
+                  <SkeenButton className="text-sm ">Get started</SkeenButton>
                 </Link>
               </li>
             </ul>
