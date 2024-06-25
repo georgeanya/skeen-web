@@ -15,7 +15,7 @@ const SkeenButton = styled(Button)({
   fontFamily: "Circular Std",
   color: "#f8f8f8",
   cursor: "pointer",
-  padding: "20px 30px",
+  padding: "20px 38px",
   margin: "0px 0px",
   borderRadius: "32px",
   textTransform: "none",
@@ -27,7 +27,7 @@ const SkeenButton = styled(Button)({
 const Section2 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-[90px]">
-      <p className=" text-3xl md:text-start md:text-4xl md:max-w-xl font-bold text-[#3E7EEE]">
+      <p className=" text-3xl md:text-start md:text-[38px] leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
         How Skeen works
       </p>
       <div className="max-w-xl min-w-full mt-12 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
@@ -38,7 +38,7 @@ const Section2 = () => {
               <Image src={rectangle1} alt="" />
             </div>
             <div className="flex justify-between">
-              <p className="text-[20px] leading-[25px] md:text-2xl text-[#333D47] font-medium">
+              <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
                 Tell us about you
               </p>
             </div>
@@ -56,7 +56,7 @@ const Section2 = () => {
               <Image src={rectangle2} alt="" />
             </div>
             <div className="flex justify-between">
-              <p className="text-[20px] leading-[25px] md:text-2xl text-[#333D47] font-medium">
+              <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
                 Get your personalized treatment plan
               </p>
             </div>
@@ -74,7 +74,7 @@ const Section2 = () => {
               <Image src={rectangle3} alt="" />
             </div>
             <div className="flex justify-between">
-              <p className="text-[20px] leading-[25px] md:text-2xl text-[#333D47] font-medium">
+              <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
                 Ongoing support
               </p>
             </div>
@@ -87,7 +87,7 @@ const Section2 = () => {
       </div>
       <div className="md:mt-[60px] mt-10">
         <Link href="/book-consultation">
-          <SkeenButton className="text-xs md:text-base font-medium">
+          <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
             Get started now
           </SkeenButton>
         </Link>

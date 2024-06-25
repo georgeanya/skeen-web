@@ -4,12 +4,13 @@ import { styled } from "@mui/material/styles";
 
 import { useState } from "react";
 import FAQ from "./faqsection";
+import Link from "next/link";
 
 const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
-  padding: "20px 30px",
+  padding: "20px 38px",
   margin: "0px 0px",
   borderRadius: "32px",
   textTransform: "none",
@@ -67,15 +68,22 @@ const Faq = () => {
   };
 
   return (
-    <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-36 pb-24">
-      <p className=" text-3xl md:text-start md:text-4xl md:max-w-xl font-bold text-[#3E7EEE] mb-14 pr-8">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-24">
+      <p className=" text-3xl md:text-start md:text-[38px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE] mb-[80px] pr-8">
         Frequently asked questions
       </p>
-      <div className="max-w-3xl">
+      <div className="">
         {faqs.map((faq, index) => (
           <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
         ))}
         {/* <hr className="my-6 md:my-8 mb-6 md:mb-12 " /> */}
+      </div>
+      <div className="mt-[60px] ">
+        <Link href="/book-consultation">
+          <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
+            See all FAQs
+          </SkeenButton>
+        </Link>
       </div>
     </div>
   );

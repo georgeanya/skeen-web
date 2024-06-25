@@ -11,7 +11,7 @@ const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
   fontFamily: "Circular Std",
   color: "#f8f8f8",
-  padding: "20px 30px",
+  padding: "20px 38px",
   margin: "0px 0px",
   borderRadius: "32px",
   textTransform: "none",
@@ -24,10 +24,10 @@ const Footer = () => {
   return (
     <div className="bg-[#181C26] md:px-[125px] px-5 md:pt-36 pt-24 text-white">
       <div className="text-center">
-        <p className="text-3xl md:text-5xl font-bold mb-6">
+        <p className="text-3xl md:text-[50px] md:leading-[68px] font-bold mb-[22px]">
           Start improving your skin
         </p>
-        <p className="text-lg leading-6 md:text-[22px] font-normal mb-11 max-w-2xl flex justify-center m-auto">
+        <p className="text-lg leading-6 md:text-[22px] md:leading-[30px] font-normal md:mb-[48px] max-w-2xl flex justify-center m-auto">
           Complete an online consultation so a licensed dermatology provider can
           help you find relief
         </p>
@@ -37,7 +37,7 @@ const Footer = () => {
           </SkeenButton>
         </Link>
       </div>
-      <hr className="md:mt-36 mt-28 md:mb-24 mb-20" />
+      <hr className="md:mt-[110px] mt-28 md:mb-[90px] mb-20 text-[#C7CBD1]" />
       <div className="md:flex md:justify-between text-start">
         <img src={skeen.src} className="self-start" alt="skeen logo" />
         <div className="flex flex-wrap">
@@ -143,8 +143,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="md:mt-[90px] mt-28" />
-      <p className="md:mt-[45px] mt-16 text-sm pb-10 md:pb-16 text-center md:text-start">
+      <hr className="md:mt-[90px] mt-28 text-[#C7CBD1]" />
+      <p className="md:mt-[45px] mt-16 text-sm md:text-[15px] md:leading-[18px] pb-10 md:pb-[65px] text-center md:text-start">
         ©2024 Skeen, a Lifebox Labs company
       </p>
     </div>

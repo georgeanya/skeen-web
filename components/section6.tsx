@@ -19,7 +19,7 @@ const Section1 = () => {
             so friendly and helpful.
           </p>
           <div className="flex justify-between items-center mt-6">
-            <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884] ">
+            <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884] ">
               Moyo
             </p>
             <Image src={stars} alt="" />
@@ -32,8 +32,8 @@ const Section1 = () => {
             and provided a treatment plan.
           </p>
           <div className="flex justify-between items-center mt-6">
-            <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884] ">
-              Moyo
+            <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884] ">
+              Teju
             </p>
             <Image src={stars} alt="" />
           </div>
@@ -45,8 +45,8 @@ const Section1 = () => {
             having to travel hours!
           </p>
           <div className="flex justify-between items-center mt-6">
-            <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884] ">
-              Moyo
+            <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884] ">
+              Angela
             </p>
             <Image src={stars} alt="" />
           </div>

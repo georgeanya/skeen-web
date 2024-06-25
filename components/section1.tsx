@@ -13,7 +13,7 @@ const SkeenButton = styled(Button)({
   fontFamily: "Circular Std",
   color: "#222E50",
   cursor: "pointer",
-  padding: "20px 30px",
+  padding: "20px 38px",
   margin: "0px 0px",
   borderRadius: "32px",
   textTransform: "none",
@@ -26,12 +26,12 @@ const Section1 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-20 bg-[#222E50] text-white grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 md:gap-[138px] gap-4">
       <div className="">
-        <p className="text-[28px] leading-9 md:text-start md:text-4xl md:max-w-xl font-bold mr-3 md:mr-0  ">
+        <p className="text-[28px] leading-9 md:text-[38px] font-bold mr-3 md:mr-0  ">
           What&apos;s your skin concern?
         </p>
         <div className="">
           <div className="h-[60px] md:hidden"></div>
-          <hr className="md:mt-[60px] mb-6 md:mb-6 hidden md:flex" />
+          <hr className="md:mt-[60px] mb-6 hidden md:flex" />
           <div className="flex justify-between items-center ">
             <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
               Acne
@@ -42,7 +42,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-6 md:my-6" />
+          <hr className="my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Eczema
@@ -53,7 +53,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-6 md:my-6" />
+          <hr className="my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Dark spots
@@ -64,7 +64,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-6 md:my-6" />
+          <hr className="my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Psoriasis
@@ -75,7 +75,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-6 md:my-6" />
+          <hr className="my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               See all conditions
@@ -86,7 +86,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-6 md:my-6" />
+          <hr className="my-[17px] md:my-6" />
         </div>
       </div>
       <div className="md:mt-48 mt-[28px] ">
@@ -99,7 +99,7 @@ const Section1 = () => {
         </p>
         <div className="mt-10  ">
           <Link href="/book-consultation">
-            <SkeenButton className="text-xs md:text-base font-medium">
+            <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
               Start your consultation
             </SkeenButton>
           </Link>

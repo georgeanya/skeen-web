@@ -6,7 +6,7 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
   return (
     <div>
       <div
-        className=" inline-flex"
+        className=" flex flex-row-reverse justify-between"
         onClick={() => toggleFAQ(index)}
         key={index}
       >
@@ -30,7 +30,7 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
             {faq.question}
           </p>
           {faq.open ? (
-            <p className="text-base md:text-xl md:leading-[30px] text-[#61616B] mt-2 md:mt-6">
+            <p className="text-base md:text-xl md:leading-[30px] text-[#6C7884] mt-2 md:mt-6">
               {faq.answer}
             </p>
           ) : (
@@ -38,7 +38,7 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
           )}
         </div>
       </div>
-      <hr className="my-6 md:my-[34px] " />
+      <hr className="my-6 md:my-[34px] text-[#C0C9D8]" />
     </div>
   );
 };

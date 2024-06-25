@@ -15,16 +15,16 @@ const SkeenButton = styled(Button)({
   textTransform: "none",
 });
 
-const ArrowIcon = styled(ArrowForwardIcon)({
-  color: "#f8f8f8",
-  padding: "1.5px",
-  marginTop: "-2px",
-  width: "21px",
-  ["@media (max-width:780px)"]: {
-    width: "16px",
-    marginTop: "0px",
-  },
-});
+// const ArrowIcon = styled(ArrowForwardIcon)({
+//   color: "#f8f8f8",
+//   padding: "1.5px",
+//   marginTop: "-2px",
+//   width: "21px",
+//   ["@media (max-width:780px)"]: {
+//     width: "16px",
+//     marginTop: "0px",
+//   },
+// });
 
 const Navbar = () => {
   const [isToggled, setIsToggled] = useState(true);
@@ -89,41 +89,41 @@ const Navbar = () => {
               id="navbar-solid-bg"
             >
               <ul className="flex flex-col mt-4 bg-gray-50 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-                <li className="mt-3 mx-5 ">
+                <li className="mt-3 mx-[22.5px] ">
                   <Link
                     href="https://privhealth.bumpa.shop"
-                    className="text-sm pt-5 text-[#111111] rounded hover:text-blue-700 md:p-0 "
+                    className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     What we treat
                   </Link>
                 </li>
-                <li className="mt-3 mx-5 ">
+                <li className="mt-3 mx-[22.5px] ">
                   <Link
                     href="https://privhealth.bumpa.shop"
-                    className="text-sm pt-5 text-[#111111] rounded hover:text-blue-700 md:p-0 "
+                    className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     Shop
                   </Link>
                 </li>
-                <li className="mt-3 mx-5 ">
+                <li className="mt-3 mx-[22.5px] ">
                   <Link
                     href="https://privhealth.bumpa.shop"
-                    className="text-sm pt-5 text-[#111111] rounded hover:text-blue-700 md:p-0 "
+                    className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     Community
                   </Link>
                 </li>
-                <li className="mt-3 mx-5 ">
+                <li className="mt-3 mx-[22.5px] ">
                   <Link
                     href="/blog"
-                    className="text-sm pt-5 text-[#111111] rounded hover:text-blue-700 md:p-0 "
+                    className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     Blog
                   </Link>
                 </li>
-                <li className="ml-8">
+                <li className="ml-[35px]">
                   <Link href="/book-consultation">
-                    <SkeenButton className="text-sm">
+                    <SkeenButton className="text-sm leading-[17px]">
                       Get started now
                     </SkeenButton>
                   </Link>
@@ -142,7 +142,20 @@ const Navbar = () => {
                   href="https://privhealth.bumpa.shop"
                   className="block text-sm py-4"
                 >
-                  Shop
+                  What we treat
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="block text-sm py-4">
+                Shop
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://privhealth.bumpa.shop"
+                  className="block text-sm py-4"
+                >
+                  Community
                 </Link>
               </li>
               <li>
@@ -152,7 +165,7 @@ const Navbar = () => {
               </li>
               <li className="mt-3">
                 <Link href="/book-consultation">
-                  <SkeenButton className="text-sm ">Get started</SkeenButton>
+                  <SkeenButton className="text-sm ">Get started now</SkeenButton>
                 </Link>
               </li>
             </ul>
