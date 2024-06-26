@@ -20,17 +20,17 @@ const SkeenButton = styled(Button)({
   borderRadius: "32px",
   textTransform: "none",
   ["@media (max-width:780px)"]: {
-    padding: "16px 30px",
+    padding: "16px 32px",
   },
 });
 
 const Section2 = () => {
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-[90px]">
+    <div className="px-5 md:px-[125px] md:pt-[120px] md:pb-36 py-[90px]">
       <p className=" text-3xl md:text-start md:text-[38px] leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
         How Skeen works
       </p>
-      <div className="max-w-xl min-w-full mt-12 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
+      <div className="max-w-xl min-w-full mt-10 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
         <div>
           <div className="">
             <div className="relative mb-6 md:mb-7">
@@ -42,7 +42,7 @@ const Section2 = () => {
                 Tell us about you
               </p>
             </div>
-            <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2 md:mt-4">
+            <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2.5 md:mt-4">
               Answer a few questions about your skin concern and medical history
               and submit photos for our dermatology provider to review
             </p>
@@ -87,7 +87,7 @@ const Section2 = () => {
       </div>
       <div className="md:mt-[60px] mt-10">
         <Link href="/book-consultation">
-          <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
+          <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
             Get started now
           </SkeenButton>
         </Link>

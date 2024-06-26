@@ -1,6 +1,7 @@
 import React from "react";
 import minus from "../public/assets/minus.png";
 import plus from "../public/assets/plus.png";
+import Image from "next/image";
 
 const FAQ = ({ faq, index, toggleFAQ }: any) => {
   return (
@@ -12,14 +13,14 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
       >
         <div className="self-start min-w-fit cursor-pointer h-4 md:h-5">
           {faq.open ? (
-            <img
-              className="mr-6 flex self-center w-4 md:w-5 md:mr-10 mt-3.5"
+            <Image
+              className="flex self-center w-4 md:w-5 mt-3.5"
               src={minus.src}
               alt=""
             />
           ) : (
-            <img
-              className="mr-6 self-center w-4 md:w-5 md:mr-10 mt-1"
+            <Image
+              className="self-center w-4 md:w-5 mt-1"
               src={plus.src}
               alt=""
             />

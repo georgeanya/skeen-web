@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=" md:w-[460px] mt-[60px] md:mt-0 flex md:pr-[75px] md:pt-[80px] justify-center">
-        <img src={hero.src} alt="hero" />
+        <Image src={hero.src} alt="hero" />
       </div>
     </div>
   );

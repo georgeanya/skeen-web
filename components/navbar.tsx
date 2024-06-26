@@ -3,6 +3,7 @@ import skeen from "../public/assets/skeen.svg";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import Image from "next/image";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const SkeenButton = styled(Button)({
@@ -35,9 +36,9 @@ const Navbar = () => {
         <nav>
           <div className="container flex flex-wrap justify-between items-center mx-auto">
             <Link href="/">
-              <img
+              <Image
                 src={skeen.src}
-                className="mr-3  self-center"
+                className="mr-3  self-center w-[80px] md:w-[92px]"
                 alt="Skeen health logo"
               />
             </Link>
@@ -147,7 +148,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link href="/blog" className="block text-sm py-4">
-                Shop
+                  Shop
                 </Link>
               </li>
               <li>
@@ -165,7 +166,9 @@ const Navbar = () => {
               </li>
               <li className="mt-3">
                 <Link href="/book-consultation">
-                  <SkeenButton className="text-sm ">Get started now</SkeenButton>
+                  <SkeenButton className="text-sm ">
+                    Get started now
+                  </SkeenButton>
                 </Link>
               </li>
             </ul>

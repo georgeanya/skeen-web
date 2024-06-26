@@ -244,7 +244,7 @@ const Form = () => {
             </div>
           </div>
           <div className="flex mb-[30px]">
-            <img src={lock.src} alt="" />
+            <Image src={lock.src} alt="" />
             <p className="md:text-[13px] leading-4 text-xs text-[#73738C] ml-1">
               Your information will never be shared with anyone
             </p>

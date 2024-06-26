@@ -5,6 +5,7 @@ import { styled } from "@mui/material/styles";
 import minus from "../public/assets/minus.png";
 import purplearrow from "../public/assets/purplearrow.svg";
 import support from "../public/assets/support.svg";
+import Image from "next/image";
 
 import Link from "next/link";
 
@@ -24,9 +25,9 @@ const SkeenButton = styled(Button)({
 
 const Section1 = () => {
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-20 bg-[#222E50] text-white grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 md:gap-[138px] gap-4">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-[90px] bg-[#222E50] text-white grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 md:gap-[138px]">
       <div className="">
-        <p className="text-[28px] leading-9 md:text-[38px] font-bold mr-3 md:mr-0  ">
+        <p className="text-[28px] leading-[35px] md:text-[38px] md:leading-[48px] font-bold mr-3 md:mr-0  ">
           What&apos;s your skin concern?
         </p>
         <div className="">
@@ -36,7 +37,7 @@ const Section1 = () => {
             <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
               Acne
             </p>
-            <img
+            <Image
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -47,7 +48,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Eczema
             </p>
-            <img
+            <Image
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -58,7 +59,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Dark spots
             </p>
-            <img
+            <Image
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -69,7 +70,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Psoriasis
             </p>
-            <img
+            <Image
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -80,7 +81,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               See all conditions
             </p>
-            <img
+            <Image
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -89,7 +90,7 @@ const Section1 = () => {
           <hr className="my-[17px] md:my-6" />
         </div>
       </div>
-      <div className="md:mt-48 mt-[28px] ">
+      <div className="md:mt-48 mt-[35px] ">
         <p className="md:text-[24px] md:leading-[30px] text-[18px] font-medium leading-[22px]">
           Not sure about what condition you have?
         </p>
@@ -97,9 +98,9 @@ const Section1 = () => {
           That&apos;s not a problem! Our dermatology providers will provide you
           with an expert diagnosis and treatment
         </p>
-        <div className="mt-10  ">
+        <div className="md:mt-10 mt-6  ">
           <Link href="/book-consultation">
-            <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
+            <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Start your consultation
             </SkeenButton>
           </Link>

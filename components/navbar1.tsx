@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav>
           <div className="container flex flex-wrap  justify-center items-center mx-auto">
             <Link href="/" className="flex self-center">
-              <img
+              <Image
                 src={skeen.src}
                 className="mr-3  self-center"
                 alt="Skeen health logo"

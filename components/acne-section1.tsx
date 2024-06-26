@@ -5,6 +5,7 @@ import { styled } from "@mui/material/styles";
 import minus from "../public/assets/minus.png";
 import purplearrow from "../public/assets/purplearrow.svg";
 import support from "../public/assets/support.svg";
+import Image from "next/image";
 
 import Link from "next/link";
 
@@ -43,7 +44,7 @@ const Section1 = () => {
           <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
             Acne
           </p>
-          <img
+          <Image
             className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
             src={purplearrow.src}
             alt=""
@@ -54,7 +55,7 @@ const Section1 = () => {
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             Eczema
           </p>
-          <img
+          <Image
             className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
             src={purplearrow.src}
             alt=""
@@ -65,7 +66,7 @@ const Section1 = () => {
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             Dark spots
           </p>
-          <img
+          <Image
             className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
             src={purplearrow.src}
             alt=""
@@ -76,7 +77,7 @@ const Section1 = () => {
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             Psoriasis
           </p>
-          <img
+          <Image
             className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
             src={purplearrow.src}
             alt=""
@@ -87,7 +88,7 @@ const Section1 = () => {
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             See all conditions
           </p>
-          <img
+          <Image
             className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
             src={purplearrow.src}
             alt=""

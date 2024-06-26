@@ -3,6 +3,7 @@ import hero from "../public/assets/shop.png";
 import { useState, useCallback, useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
+import Image from "next/image";
 import Link from "next/link";
 
 const SkeenButton = styled(Button)({
@@ -15,7 +16,7 @@ const SkeenButton = styled(Button)({
   borderRadius: "32px",
   textTransform: "none",
   ["@media (max-width:780px)"]: {
-    padding: "16px 30px",
+    padding: "16px 32px",
   },
 });
 
@@ -23,7 +24,7 @@ const Section4 = () => {
   return (
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 pt-20 md:pt-0 flex flex-col md:flex-row md:justify-between bg-[#1B947D]">
       <div className="md:max-w-[549px] pb-[60px] md:pb-0 md:pt-[184px]">
-        <p className="  text-[32px] leading-[40px] md:text-start md:text-5xl font-bold text-white md:leading-[60px]">
+        <p className="  text-[28px] leading-[35px] md:text-start md:text-5xl font-bold text-white md:leading-[60px]">
           Quality products. By dermatologists. For all skin types.
         </p>
         <p className="mt-5 md:mt-5 text-[16px] leading-[22px] font-normal md:pr-8 md:text-start md:text-[20px] md:leading-[28px] text-white">
@@ -32,14 +33,14 @@ const Section4 = () => {
         </p>
         <div className="mt-8 ">
           <Link href="/book-consultation">
-            <SkeenButton className="text-xs md:text-base  md:leading-5 font-medium">
+            <SkeenButton className="text-sm md:text-base  md:leading-5 font-medium">
               Start shopping
             </SkeenButton>
           </Link>
         </div>
       </div>
       <div className="  flex md:pr-[75px] md:pt-[120px] justify-center">
-        <img src={hero.src} alt="hero" className="md:w-[460px]" />
+        <Image src={hero.src} alt="hero" className="md:w-[460px]" />
       </div>
     </div>
   );

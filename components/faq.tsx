@@ -68,8 +68,8 @@ const Faq = () => {
   };
 
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-24">
-      <p className=" text-3xl md:text-start md:text-[38px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE] mb-[80px] pr-8">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-[66px]">
+      <p className=" text-[28px] leading-[35px] md:text-start md:text-[38px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]  mb-[60px] md:mb-[80px] pr-8">
         Frequently asked questions
       </p>
       <div className="">
@@ -78,7 +78,7 @@ const Faq = () => {
         ))}
         {/* <hr className="my-6 md:my-8 mb-6 md:mb-12 " /> */}
       </div>
-      <div className="mt-[60px] ">
+      <div className="mt-[60px] hidden md:flex">
         <Link href="/book-consultation">
           <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
             See all FAQs
