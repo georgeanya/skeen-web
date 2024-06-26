@@ -32,7 +32,7 @@ const Section1 = () => {
         </p>
         <div className="">
           <div className="h-[60px] md:hidden"></div>
-          <hr className="md:mt-[60px] mb-6 hidden md:flex" />
+          <hr className="h-[0.5px] border-t-[0.5px] md:mt-[60px] mb-6 hidden md:flex" />
           <div className="flex justify-between items-center ">
             <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
               Acne
@@ -43,7 +43,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-[17px] md:my-6" />
+          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Eczema
@@ -54,7 +54,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-[17px] md:my-6" />
+          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Dark spots
@@ -65,7 +65,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-[17px] md:my-6" />
+          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Psoriasis
@@ -76,7 +76,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-[17px] md:my-6" />
+          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
           <div className="flex justify-between items-center">
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               See all conditions
@@ -87,7 +87,7 @@ const Section1 = () => {
               alt=""
             />
           </div>
-          <hr className="my-[17px] md:my-6" />
+          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
         </div>
       </div>
       <div className="md:mt-48 mt-[35px] ">

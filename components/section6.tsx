@@ -22,7 +22,7 @@ const Section1 = () => {
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
               Moyo
             </p>
-            <img src={stars} alt="" />
+            <Image src={stars} alt="" />
           </div>
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
@@ -35,7 +35,7 @@ const Section1 = () => {
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
               Teju
             </p>
-            <img src={stars} alt="" />
+            <Image src={stars} alt="" />
           </div>
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
@@ -48,7 +48,7 @@ const Section1 = () => {
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
               Angela
             </p>
-            <img src={stars} alt="" />
+            <Image src={stars} alt="" />
           </div>
         </div>
       </div>

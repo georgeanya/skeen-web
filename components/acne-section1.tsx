@@ -39,7 +39,7 @@ const Section1 = () => {
         </div>
       </div>
       <div className="mt-[60xp] md:mt-0 md:w-full md:ml-[100px]">
-        <hr className="mt-6 md:mt-0 mb-6 md:mb-6 hidden md:flex" />
+        <hr className="h-[0.5px] border-t-[0.5px] mt-6 md:mt-0 mb-6 md:mb-6 hidden md:flex" />
         <div className="flex justify-between items-center ">
           <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
             Acne
@@ -50,7 +50,7 @@ const Section1 = () => {
             alt=""
           />
         </div>
-        <hr className="my-6 md:my-6" />
+        <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-6" />
         <div className="flex justify-between items-center">
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             Eczema
@@ -61,7 +61,7 @@ const Section1 = () => {
             alt=""
           />
         </div>
-        <hr className="my-6 md:my-6" />
+        <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-6" />
         <div className="flex justify-between items-center">
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             Dark spots
@@ -72,7 +72,7 @@ const Section1 = () => {
             alt=""
           />
         </div>
-        <hr className="my-6 md:my-6" />
+        <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-6" />
         <div className="flex justify-between items-center">
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             Psoriasis
@@ -83,7 +83,7 @@ const Section1 = () => {
             alt=""
           />
         </div>
-        <hr className="my-6 md:my-6" />
+        <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-6" />
         <div className="flex justify-between items-center">
           <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
             See all conditions
@@ -94,7 +94,7 @@ const Section1 = () => {
             alt=""
           />
         </div>
-        <hr className="my-6 md:my-6" />
+        <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-6" />
       </div>
     </div>
   );

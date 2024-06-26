@@ -38,7 +38,7 @@ const Footer = () => {
           </SkeenButton>
         </Link>
       </div>
-      <hr className="md:mt-[110px] mt-[90px] md:mb-[90px] mb-[70px] text-[#C7CBD1]" />
+      <hr className="h-[0.5px] border-t-[0.5px] md:mt-[110px] mt-[90px] md:mb-[90px] mb-[70px] text-[#C7CBD1]" />
       <div className="md:flex md:justify-between text-start">
         <img src={skeen.src} className="self-start" alt="skeen logo" />
         <div className="flex flex-wrap">
@@ -46,23 +46,23 @@ const Footer = () => {
             <h3 className="md:mb-8 mb-[27px] mt-[52px] md:mt-0 text-[15px] leading-[18px] md:text-base font-medium">
               TREATMENTS
             </h3>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="/blog">Acne</Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="/">Eczema</Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://priv-health.notion.site/Terms-of-use-254e525466a3493687d94fd671d93ad8">
                 Clogged pores
               </Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://priv-health.notion.site/Privacy-policy-2f70cbb81ab843ca920e87d2b32caa37">
                 Psoriasis
               </Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://priv-health.notion.site/Privacy-policy-2f70cbb81ab843ca920e87d2b32caa37">
                 See all
               </Link>
@@ -72,15 +72,15 @@ const Footer = () => {
             <h3 className="md:mb-8 mb-[27px] mt-[52px] md:mt-0 text-[15px] leading-[18px] md:text-base md:leading-5 font-medium">
               RESOURCES
             </h3>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="/404">Help center</Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://lifebox-labs.notion.site/Privacy-policy-9c564d4280694f34805e974ee3084c35">
                 Privacy policy
               </Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://lifebox-labs.notion.site/lifebox-labs/Terms-of-use-1dc563d01e574d108fdc23f4c51d2ee1">
                 Terms of use
               </Link>
@@ -93,13 +93,13 @@ const Footer = () => {
             <h3 className="md:mb-8 mb-[27px] mt-[52px] md:mt-0 text-[15px] leading-[18px] md:text-base md:leading-5 font-medium">
               COMPANY
             </h3>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://lifebox.ng/">About</Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="/blog">Blog</Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="https://lifebox-labs.notion.site/Join-Lifebox-Labs-caed82beacb448cf9be9b380907caa19">
                 Careers
               </Link>
@@ -112,10 +112,10 @@ const Footer = () => {
             <h3 className="md:mb-8 mb-[27px] mt-[52px] md:mt-0 text-[15px] leading-[18px] md:text-base md:leading-5 font-medium">
               CONTACT
             </h3>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="tel:+2347040559724">+2347040559724</Link>
             </p>
-            <p className="md:mb-6 md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
+            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-4 text-[#C4CED4]">
               <Link href="mailto:hi@custodiahealth.com">hi@skeen.co</Link>
             </p>
             <div className="flex">
@@ -144,7 +144,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="md:mt-[90px] mt-[70px] text-[#C7CBD1]" />
+      <hr className="h-[0.5px] border-t-[0.5px] md:mt-[90px] mt-[70px] text-[#C7CBD1]" />
       <p className="md:mt-[45px] mt-[35px] text-sm md:text-[15px] leading-[17px] md:leading-[18px] pb-[51px] md:pb-[65px] text-center md:text-start">
         ©2024 Skeen, a Lifebox Labs company
       </p>

@@ -76,7 +76,7 @@ const Faq = () => {
         {faqs.map((faq, index) => (
           <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
         ))}
-        {/* <hr className="my-6 md:my-8 mb-6 md:mb-12 " /> */}
+        {/* <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-8 mb-6 md:mb-12 " /> */}
       </div>
       <div className="mt-[60px] hidden md:flex">
         <Link href="/book-consultation">
