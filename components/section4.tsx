@@ -40,7 +40,7 @@ const Section4 = () => {
         </div>
       </div>
       <div className="  flex md:pr-[75px] md:pt-[120px] justify-center">
-        <Image src={hero.src} alt="hero" className="md:w-[460px]" />
+        <img src={hero.src} alt="hero" className="md:w-[460px]" />
       </div>
     </div>
   );

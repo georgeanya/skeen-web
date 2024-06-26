@@ -4,7 +4,7 @@ import axios from "axios";
 import StartError from "./startError";
 import StartSuccess from "./startSuccess";
 import lock from "../public/assets/lock.svg";
-
+import Image from "next/image";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
@@ -244,7 +244,7 @@ const Form = () => {
             </div>
           </div>
           <div className="flex mb-[30px]">
-            <Image src={lock.src} alt="" />
+            <img src={lock.src} alt="" />
             <p className="md:text-[13px] leading-4 text-xs text-[#73738C] ml-1">
               Your information will never be shared with anyone
             </p>

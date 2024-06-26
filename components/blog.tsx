@@ -4,6 +4,7 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import Link from "next/link";
+import Image from "next/image";
 import { GetServerSideProps } from "next";
 
 const SustainOutlineButton = styled(Button)({
@@ -132,7 +133,7 @@ const Blog = ({ initialBlogs }: any) => {
         </p>
         <div className="md:flex justify-between mt-9 md:mt-10">
           <Link href={`/blog/${blog.attributes?.slug}`}>
-            <Image
+            <img
               src={ImgUrl}
               alt=""
               className="cursor-pointer w-full md:w-[660px] md:h-[380px] rounded-[20px]"
@@ -151,7 +152,7 @@ const Blog = ({ initialBlogs }: any) => {
               {blog.attributes?.description}
             </p>
             <div className="flex mt-7 md:mt-10">
-              <Image src={image.src} alt="" className="w-12 rounded-[25px]" />
+              <img src={image.src} alt="" className="w-12 rounded-[25px]" />
               <div className="ml-4 self-center">
                 <p className="text-[#111111] text-sm md:text-base leading-5 font-medium">
                   {blog.attributes?.author.data.attributes.name}
@@ -269,7 +270,7 @@ const Blog = ({ initialBlogs }: any) => {
                 <Link href={`/blog/${attributes.slug}`} key={id}>
                   <div className="max-w-[357px] md:h-[540px] flex flex-col justify-between">
                     <div>
-                      <Image
+                      <img
                         src={attributes.image.data.attributes.url}
                         alt=""
                         className="cursor-pointer w-full md:w-[357px] md:h-[205.55px] rounded-[20px]"
@@ -286,7 +287,7 @@ const Blog = ({ initialBlogs }: any) => {
                       </p>
                     </div>
                     <div className="flex mt-7 md:mt-10">
-                      <Image
+                      <img
                         src={image.src}
                         alt=""
                         className="w-12 rounded-[25px]"

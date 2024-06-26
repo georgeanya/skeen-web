@@ -2,6 +2,7 @@ import skeen from "../public/assets/skeen.svg";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import Image from "next/image";
 
 const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
@@ -20,7 +21,7 @@ const Navbar = () => {
         <nav>
           <div className="container flex flex-wrap  justify-center items-center mx-auto">
             <Link href="/" className="flex self-center">
-              <Image
+              <img
                 src={skeen.src}
                 className="mr-3  self-center"
                 alt="Skeen health logo"

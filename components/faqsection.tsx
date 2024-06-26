@@ -13,13 +13,13 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
       >
         <div className="self-start min-w-fit cursor-pointer h-4 md:h-5">
           {faq.open ? (
-            <Image
+            <img
               className="flex self-center w-4 md:w-5 mt-3.5"
               src={minus.src}
               alt=""
             />
           ) : (
-            <Image
+            <img
               className="self-center w-4 md:w-5 mt-1"
               src={plus.src}
               alt=""

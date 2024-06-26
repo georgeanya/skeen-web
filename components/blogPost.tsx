@@ -13,6 +13,7 @@ import Moment from "react-moment";
 import style from "../pages/blog/markdown-styles.module.css";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 import Link from "next/link";
+import Image from "next/image";
 
 const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
@@ -138,7 +139,7 @@ const BlogPost = ({ blog }: any) => {
           {fetchedBlog?.attributes?.title}
         </h1>
         <div className="flex mt-7 md:mt-[30px]">
-          <Image src={image.src} alt="" className="w-12 rounded-[25px]" />
+          <img src={image.src} alt="" className="w-12 rounded-[25px]" />
           <div className="ml-4 self-center">
             <p className="text-[#111111] text-sm md:text-base font-medium">
               {fetchedBlog?.attributes?.author.data.attributes?.name}
@@ -148,7 +149,7 @@ const BlogPost = ({ blog }: any) => {
             </p>
           </div>
         </div>
-        {/* <Image
+        {/* <img
           src={ImgUrl}
           alt=""
           className="cursor-pointer w-full rounded-[20px] md:mt-[50px] mt-[35px]"
@@ -182,15 +183,11 @@ const BlogPost = ({ blog }: any) => {
           <div className="flex md:flex-col md:ml-12 md:min-w-[40px] mb-20">
             <FacebookShareButton url={url}>
               {" "}
-              <Image src={facebook.src} alt="" />
+              <img src={facebook.src} alt="" />
             </FacebookShareButton>
             <TwitterShareButton url={url}>
               {" "}
-              <Image
-                src={twitter.src}
-                className="md:mt-5 ml-5 md:ml-0"
-                alt=""
-              />
+              <img src={twitter.src} className="md:mt-5 ml-5 md:ml-0" alt="" />
             </TwitterShareButton>
           </div>
         </div>

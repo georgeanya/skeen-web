@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <hr className="md:mt-[110px] mt-[90px] md:mb-[90px] mb-[70px] text-[#C7CBD1]" />
       <div className="md:flex md:justify-between text-start">
-        <Image src={skeen.src} className="self-start" alt="skeen logo" />
+        <img src={skeen.src} className="self-start" alt="skeen logo" />
         <div className="flex flex-wrap">
           <div className="w-40 md:w-[245px]">
             <h3 className="md:mb-8 mb-[27px] mt-[52px] md:mt-0 text-[15px] leading-[18px] md:text-base font-medium">
@@ -120,21 +120,21 @@ const Footer = () => {
             </p>
             <div className="flex">
               <Link href="https://facebook.com/custodiahealth">
-                <Image
+                <img
                   src={fbook.src}
                   className="mr-5 cursor-pointer"
                   alt="facebook logo"
                 />
               </Link>
               <Link href="https://instagram.com/custodiahealth">
-                <Image
+                <img
                   src={insta.src}
                   className="mr-5 cursor-pointer"
                   alt="instagram logo"
                 />
               </Link>
               <Link href="https://twitter.com/custodiahealth">
-                <Image
+                <img
                   src={twitter.src}
                   className="mr-5 cursor-pointer"
                   alt="twitter logo"

@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import Image from "next/image";
 
 const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
@@ -22,7 +23,7 @@ const SkeenButton = styled(Button)({
 const Hero = () => {
   return (
     <div className="px-5 md:px-[125px] pb-20 md:pb-36 flex flex-col md:flex-row md:justify-between">
-      <div className="md:max-w-md md:max-w-lg pt-[42px] pb-17 md:pb-0 md:pt-[130px]">
+      <div className="md:max-w-lg pt-[42px] pb-17 md:pb-0 md:pt-[130px]">
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
           Get expert Acne treatment online
         </p>
@@ -40,7 +41,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=" md:w-[460px] mt-[60px] md:mt-0 flex md:pr-[75px] md:pt-[80px] justify-center">
-        <Image src={hero.src} alt="hero" />
+        <img src={hero.src} alt="hero" />
       </div>
     </div>
   );

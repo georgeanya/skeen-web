@@ -37,7 +37,7 @@ const Section1 = () => {
             <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
               Acne
             </p>
-            <Image
+            <img
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -48,7 +48,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Eczema
             </p>
-            <Image
+            <img
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -59,7 +59,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Dark spots
             </p>
-            <Image
+            <img
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -70,7 +70,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               Psoriasis
             </p>
-            <Image
+            <img
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""
@@ -81,7 +81,7 @@ const Section1 = () => {
             <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
               See all conditions
             </p>
-            <Image
+            <img
               className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
               src={purplearrow.src}
               alt=""

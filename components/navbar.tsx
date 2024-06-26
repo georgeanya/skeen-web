@@ -36,7 +36,7 @@ const Navbar = () => {
         <nav>
           <div className="container flex flex-wrap justify-between items-center mx-auto">
             <Link href="/">
-              <Image
+              <img
                 src={skeen.src}
                 className="mr-3  self-center w-[80px] md:w-[92px]"
                 alt="Skeen health logo"

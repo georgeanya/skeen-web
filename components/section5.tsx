@@ -2,7 +2,6 @@ import React from "react";
 import hero from "../public/assets/expert.png";
 import Image from "next/image";
 
-
 const Section5 = () => {
   return (
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 md:flex justify-between">
@@ -23,11 +22,7 @@ const Section5 = () => {
         </p>
       </div>
       <div className="flex md:pr-[75px] md:pt-[120px] md:justify-end">
-        <Image
-          src={hero.src}
-          alt="hero"
-          className="md: md:max-w-[405px] flex"
-        />
+        <img src={hero.src} alt="hero" className="md: md:max-w-[405px] flex" />
       </div>
     </div>
   );
