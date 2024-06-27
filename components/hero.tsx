@@ -27,7 +27,7 @@ const Hero = () => {
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
           Convenient, expert dermatology care just for you
         </p>
-        <p className="mt-5 md:mt-5 text-base font-normal md:pr-8 md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
+        <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
           Your skin is not a science experiment. Get personalized skincare
           solutions from to expert dermatology providers and take the guesswork
           out of your skin care
