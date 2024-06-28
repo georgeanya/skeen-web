@@ -26,7 +26,7 @@ const SkeenButton = styled(Button)({
 
 const Section2 = () => {
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] md:pb-36 py-[90px]">
+    <div className="px-5 md:px-[125px] md:pt-[120px] md:pb-[130px] py-[90px]">
       <p className=" text-3xl md:text-start md:text-[38px] leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
         How Skeen works
       </p>

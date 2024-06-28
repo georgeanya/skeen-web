@@ -1,4 +1,4 @@
-import Hero from "../components/acne-hero";
+import Hero from "../components/psoriasis-hero";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Section2 from "../components/section2";
@@ -7,7 +7,7 @@ import Head from "next/head";
 import favicon from "../public/assets/favicon.png";
 import metaCard from "../public/assets/skeen-metacard.png";
 import Script from "next/script";
-import Section1 from "@/components/acne-section1";
+import Section1 from "@/components/psoriasis-section1";
 import Section3 from "@/components/section3";
 import Section4 from "@/components/section4";
 import Section5 from "@/components/section5";
@@ -17,16 +17,16 @@ export default function Home() {
   return (
     <div>
       {/* <Head>
-        <title>Acne treatment - Skeen</title>
+        <title>Skeen Health</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
           name="keywords"
-          content=" skincare, dermatology, skincare products, acne, dermatologist"
+          content="erectile dysfunction, premature ejaculation, hair loss, low testosterone, STIs"
         />
         <meta
           name="description"
-          content="Get effective acne treatment that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits"
+          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -35,11 +35,11 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
         <meta
-          content="Skeen - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Skeen Health - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
           property="og:title"
         />
         <meta
-          content="Get effective acne treatment that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits"
+          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -66,11 +66,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryprivhealth" />
         <meta
           name="twitter:title"
-          content="Skeen - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Skeen Health - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
         />
         <meta
           name="twitter:description"
-          content="Get effective acne treatment that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits"
+          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
         />
         <meta
           name="twitter:image:src"

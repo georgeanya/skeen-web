@@ -27,28 +27,28 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-       question: "What is acne?",
+       question: "What is eczema?",
        answer:
-         "Acne takes the form of blackheads, whiteheads and pus-filled spots, which can appear on the face, neck, chest or back.",
+         "Eczema, also known as atopic dermatitis, is a chronic skin condition characterized by dry, itchy, and inflamed skin. It often appears as red, scaly patches that can become cracked and weepy.",
        open: true,
      },
      {
-       question: "What causes acne?",
+       question: "What causes eczema?",
        answer:
-         "Acne is caused by a combination of factors, including overproduction of sebum, clogged pores, bacteria growth, hormonal fluctuations, stress, genetics, certain medications, environmental factors, and poor skin care habits.",
+         "The exact cause of eczema is unknown, but it's believed to result from a combination of genetic and environmental factors. Triggers can include allergens, irritants, stress, and changes in temperature or humidity.",
        open: false,
      },
     
      {
-       question: "How do I know if I have acne?",
+       question: "How do I know if I have eczema?",
        answer:
-         "You may have acne if you notice persistent red spots or pimples, whiteheads or blackheads, pustules or papules, cysts or nodules, oily or greasy skin, or uneven skin texture.",
+         "Signs of eczema include dry, itchy skin, red or brownish-gray patches, small raised bumps that may leak fluid when scratched, and thickened, cracked, or scaly skin. It commonly affects the hands, feet, ankles, wrists, neck, upper chest, eyelids, and inside the bends of the elbows and knees.",
        open: false,
      },
      {
-       question: "How long does it take to clear acne?",
+       question: "How long does it take to clear eczema?",
        answer:
-         "The time it takes to clear acne varies depending on its severity and the treatment plan. Mild acne can clear up on its own within one to two weeks, while moderate acne may take two to four weeks to clear up with medicated treatment. Severe acne, however, can take several months or even years to clear up, and acne with scarring can also require extended treatment.",
+         "The duration for clearing eczema varies as it's a chronic condition with periods of flare-ups and remission. With proper treatment and trigger avoidance, symptoms can improve within a few weeks, but complete clearing may not be possible for all patients. Long-term management is often necessary.",
        open: false,
      },
      
@@ -71,7 +71,7 @@ const Section1 = () => {
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[60px]">
-          What you should know about Acne
+          What you should know about Eczema
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="/book-consultation">

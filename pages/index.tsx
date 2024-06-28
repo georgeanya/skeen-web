@@ -17,16 +17,16 @@ export default function Home() {
   return (
     <div>
       {/* <Head>
-        <title>Skeen Health</title>
+        <title>Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
           name="keywords"
-          content="erectile dysfunction, premature ejaculation, hair loss, low testosterone, STIs"
+          content="skincare, dermatology, skincare products, acne, dark spots, hyperpigmentation, eczema, psoriasis, dermatologist"
         />
         <meta
           name="description"
-          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Your skin is not a science experiment. Get personalized skincare solutions from to expert dermatology providers and take the guesswork out of your skin care"
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -35,11 +35,11 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
         <meta
-          content="Skeen Health - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Skeen - Convenient, expert skincare in Nigeria. Shop skincare products"
           property="og:title"
         />
         <meta
-          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Your skin is not a science experiment. Get personalized skincare solutions from to expert dermatology providers and take the guesswork out of your skin care"
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -66,11 +66,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryprivhealth" />
         <meta
           name="twitter:title"
-          content="Skeen Health - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Skeen - Convenient, expert skincare in Nigeria. Shop skincare products"
         />
         <meta
           name="twitter:description"
-          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Your skin is not a science experiment. Get personalized skincare solutions from to expert dermatology providers and take the guesswork out of your skin care"
         />
         <meta
           name="twitter:image:src"

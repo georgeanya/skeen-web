@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Section5 = () => {
   return (
-    <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 md:flex justify-between">
+    <div className="px-5 md:px-[125px] pb-[90px] md:pb-[130px] md:flex justify-between">
       <div className="pt-20 pb-[50px] md:pb-0 md:pt-[183px] md:max-w-[562px]">
         <p className=" text-[28px] leading-[35px] md:text-start md:text-[42px] font-bold text-[#3E7EEE] md:leading-[53px]">
           Designed by dermatology experts, just for you

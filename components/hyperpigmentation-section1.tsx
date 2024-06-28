@@ -27,28 +27,28 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-       question: "What is acne?",
+       question: "What is hyperpigmentation?",
        answer:
-         "Acne takes the form of blackheads, whiteheads and pus-filled spots, which can appear on the face, neck, chest or back.",
+         "Hyperpigmentation is a condition where patches of skin become darker than the surrounding areas due to excess melanin production. It can affect people of all skin types.",
        open: true,
      },
      {
-       question: "What causes acne?",
+       question: "What causes hyperpigmentation?",
        answer:
-         "Acne is caused by a combination of factors, including overproduction of sebum, clogged pores, bacteria growth, hormonal fluctuations, stress, genetics, certain medications, environmental factors, and poor skin care habits.",
+         "Hyperpigmentation can be caused by sun exposure, inflammation, hormonal changes (such as during pregnancy), certain medications, and skin injuries or inflammation (post-inflammatory hyperpigmentation).",
        open: false,
      },
     
      {
-       question: "How do I know if I have acne?",
+       question: "How do I know if I have hyperpigmentation?",
        answer:
-         "You may have acne if you notice persistent red spots or pimples, whiteheads or blackheads, pustules or papules, cysts or nodules, oily or greasy skin, or uneven skin texture.",
+         "You can identify hyperpigmentation by noticing darker patches on your skin. These can be small spots or larger areas and can vary in color from light brown to dark brown or black, depending on your skin tone and the cause.",
        open: false,
      },
      {
-       question: "How long does it take to clear acne?",
+       question: "How long does it take to clear hyperpigmentation?",
        answer:
-         "The time it takes to clear acne varies depending on its severity and the treatment plan. Mild acne can clear up on its own within one to two weeks, while moderate acne may take two to four weeks to clear up with medicated treatment. Severe acne, however, can take several months or even years to clear up, and acne with scarring can also require extended treatment.",
+         "The time to clear hyperpigmentation can range from a few months to years, depending on the cause, depth of discoloration, and treatment approach. Superficial hyperpigmentation may fade in 3-6 months with proper treatment, while deeper pigmentation can take a year or more to show significant improvement.",
        open: false,
      },
      
@@ -71,7 +71,7 @@ const Section1 = () => {
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[60px]">
-          What you should know about Acne
+          What you should know about Hyperpigmentation
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="/book-consultation">

@@ -27,28 +27,28 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-       question: "What is acne?",
+       question: "What is psoriasis?",
        answer:
-         "Acne takes the form of blackheads, whiteheads and pus-filled spots, which can appear on the face, neck, chest or back.",
+         "Psoriasis is a chronic autoimmune condition that causes rapid buildup of skin cells, resulting in scaly, itchy, and inflamed patches on the skin.",
        open: true,
      },
      {
-       question: "What causes acne?",
+       question: "What causes psoriasis?",
        answer:
-         "Acne is caused by a combination of factors, including overproduction of sebum, clogged pores, bacteria growth, hormonal fluctuations, stress, genetics, certain medications, environmental factors, and poor skin care habits.",
+         "The exact cause of psoriasis is not fully understood, but it's believed to involve an overactive immune system and genetic factors. Triggers can include stress, infections, skin injuries, certain medications, and cold weather.",
        open: false,
      },
     
      {
-       question: "How do I know if I have acne?",
+       question: "How do I know if I have psoriasis?",
        answer:
-         "You may have acne if you notice persistent red spots or pimples, whiteheads or blackheads, pustules or papules, cysts or nodules, oily or greasy skin, or uneven skin texture.",
+         "Psoriasis typically presents as thick, red patches of skin covered with silvery scales. Common areas include the elbows, knees, scalp, and lower back. Other signs include dry, cracked skin that may bleed, itching, burning, or soreness, and thickened or ridged nails.",
        open: false,
      },
      {
-       question: "How long does it take to clear acne?",
+       question: "How long does it take to clear psoriasis?",
        answer:
-         "The time it takes to clear acne varies depending on its severity and the treatment plan. Mild acne can clear up on its own within one to two weeks, while moderate acne may take two to four weeks to clear up with medicated treatment. Severe acne, however, can take several months or even years to clear up, and acne with scarring can also require extended treatment.",
+         "There is no cure for psoriasis, but treatments can help manage symptoms. With proper treatment, many people see improvement in 1-3 months. However, psoriasis is a chronic condition with periods of remission and flare-ups, so ongoing management is usually necessary. The duration and effectiveness of treatment can vary significantly between individuals.",
        open: false,
      },
      
@@ -71,7 +71,7 @@ const Section1 = () => {
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[60px]">
-          What you should know about Acne
+          What you should know about Psoriasis
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="/book-consultation">
