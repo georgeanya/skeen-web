@@ -16,20 +16,18 @@ const SkeenButton = styled(Button)({
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="px-5 md:px-[125px] py-[23px] md:py-[35px] ">
-        <nav>
-          <div className="container flex flex-wrap  justify-center items-center mx-auto">
-            <Link href="/" className="flex self-center">
-              <img
-                src={skeen.src}
-                className="mr-3  self-center"
-                alt="Skeen health logo"
-              />
-            </Link>
-          </div>
-        </nav>
-      </div>
+    <div className="px-5 md:px-[125px] py-[23px] md:py-[35px] shadow-md">
+      <nav>
+        <div className="container flex flex-wrap  justify-center items-center mx-auto">
+          <Link href="/" className="flex self-center">
+            <img
+              src={skeen.src}
+              className="mr-3  self-center"
+              alt="Skeen health logo"
+            />
+          </Link>
+        </div>
+      </nav>
     </div>
   );
 };

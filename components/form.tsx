@@ -129,7 +129,7 @@ const Form = () => {
   };
 
   return (
-    <div className="max-w-[400px] mx-5 sm:mx-auto mt-[25px]">
+    <div className="max-w-[400px] mx-5 sm:mx-auto mt-[25px] md:mt-10">
       <div className={isReady ? "block" : "hidden"}>
         <p className=" leading-tight md:text-[28px] text-2xl font-bold text-[#3E7EEE] ">
           Get the right treatment for your skin

@@ -23,7 +23,7 @@ const SkeenButton = styled(Button)({
 
 const StartSuccess = () => {
   return (
-    <div className="max-w-[400px] mx-5 sm:mx-auto mt-[25px]">
+    <div className="max-w-[400px] mx-5 sm:mx-auto mt-[25px] md:mt-10">
       <p className=" leading-tight md:text-[28px] text-2xl font-bold text-[#3E7EEE] text-center">
         What’s your skin concern?
       </p>
@@ -93,7 +93,7 @@ const StartSuccess = () => {
         </div>
       </Link>
       <Link href="/book-consultation">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
+        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[52px] md:mb-10 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
           Other
           </p>
