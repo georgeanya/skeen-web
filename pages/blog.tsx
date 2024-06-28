@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Head from "next/head";
 import favicon from "../public/assets/favicon.png";
-import metaCard from "../public/assets/priv-metacard.png";
+import metaCard from "../public/assets/skeen-metacard.png";
 import Blog from "../components/blog";
 
 const BlogHome = () => {
