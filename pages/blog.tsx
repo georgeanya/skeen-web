@@ -8,7 +8,7 @@ import Blog from "../components/blog";
 const BlogHome = () => {
   return (
     <div>
-      {/* <Head>
+      <Head>
         <meta charSet="UTF-8" />
         <title>Priv Health Blog</title>
         <meta name="generator" content="SEOmatic" />
@@ -87,7 +87,7 @@ const BlogHome = () => {
           name="facebook-domain-verification"
           content="ydhokuda2jbyn329ymapza2hdhbumm"
         />
-      </Head> */}
+      </Head>
       <Navbar />
       <Blog/>
       <Footer />

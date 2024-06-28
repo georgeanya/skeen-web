@@ -48,7 +48,7 @@ const BlogPage = ({ blog }: any) => {
   const url = `https://privhealth.co/blog/${blog.attributes.slug}`;
   return (
     <div>
-      {/* <Head>
+      <Head>
         <meta charSet="UTF-8" />
         <title>{`${blog.attributes.seo.metaTitle} - Skeen Health`}</title>
         <meta name="generator" content="SEOmatic" />
@@ -136,7 +136,7 @@ const BlogPage = ({ blog }: any) => {
           hrefLang="x-default"
           rel="alternate"
         />
-      </Head> */}
+      </Head>
       <Navbar />
       <BlogPost blog={blog} />
       <Footer />

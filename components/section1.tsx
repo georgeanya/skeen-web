@@ -31,9 +31,8 @@ const Section1 = () => {
           What&apos;s your skin concern?
         </p>
         <div className="">
-          <div className="h-[60px] md:hidden"></div>
-          <hr className="h-[0.5px] border-t-[0.5px] md:mt-[60px] mb-6 hidden md:flex" />
-          <Link href="">
+          <hr className="h-[0.5px] border-t-[0.5px]  mt-[40px] md:mt-[60px] md:mb-6 mb-[17px]" />
+          <Link href="/acne">
             <div className="flex justify-between items-center ">
               <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
                 Acne
@@ -62,7 +61,7 @@ const Section1 = () => {
           <Link href="/hyperpigmentation">
             <div className="flex justify-between items-center">
               <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-              Hyperpigmentation
+                Hyperpigmentation
               </p>
               <img
                 className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"

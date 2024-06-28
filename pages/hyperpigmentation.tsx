@@ -16,7 +16,7 @@ import Section6 from "@/components/section6";
 export default function Home() {
   return (
     <div>
-      {/* <Head>
+      <Head>
         <title>Skeen Health</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
@@ -107,7 +107,7 @@ export default function Home() {
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "h4m1mgccyl");`}
         </script>
-      </Head> */}
+      </Head>
       <Navbar />
       <Hero />
       <Section1 />

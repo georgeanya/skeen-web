@@ -8,7 +8,7 @@ import metaCard from "../public/assets/skeen-metacard.png";
 const Start = () => {
   return (
     <div>
-      {/* <Head>
+      <Head>
         <title>Get started - Skeen Health</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
@@ -85,7 +85,7 @@ const Start = () => {
           name="facebook-domain-verification"
           content="ydhokuda2jbyn329ymapza2hdhbumm"
         />
-      </Head> */}
+      </Head>
       <Navbar />
       <Form />
     </div>
