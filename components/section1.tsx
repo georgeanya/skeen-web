@@ -106,7 +106,7 @@ const Section1 = () => {
           with an expert diagnosis and treatment
         </p>
         <div className="md:mt-10 mt-6  ">
-          <Link href="/book-consultation">
+          <Link href="/all-conditions">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Start your consultation
             </SkeenButton>

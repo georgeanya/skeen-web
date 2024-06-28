@@ -137,7 +137,7 @@ const Form = () => {
         <p className="text-[14px] md:text-[16px] leading-[19px] md:leading-[21px] mt-2.5 mb-[30px] md:mb-[35px]">
           Here’s how your consultation will work
         </p>
-        <div className="md:px-5 px-[15px] py-5 md:py-[25px] bg-[#EEEFF6] rounded-[15px] mb-[15px] md:mb-5">
+        <div className="md:px-5 px-[15px] py-5 md:py-[25px] bg-[#F5F5F5] rounded-[15px] mb-[15px] md:mb-5">
           <p className="text-[14px] md:text-[14px] leading-[22px] md:leading-[20.24px] font-medium mb-1">
             STEP 1
           </p>
@@ -150,7 +150,7 @@ const Form = () => {
             of your skin
           </p>
         </div>
-        <div className="md:px-5 px-[15px] py-5 md:py-[25px] bg-[#EEEFF6] rounded-[15px] mb-[15px] md:mb-5">
+        <div className="md:px-5 px-[15px] py-5 md:py-[25px] bg-[#F5F5F5] rounded-[15px] mb-[15px] md:mb-5">
           <p className="text-[14px] md:text-[14px] leading-[22px] md:leading-[20.24px] font-medium mb-1">
             STEP 2
           </p>
@@ -174,7 +174,7 @@ const Form = () => {
             </li>
           </ul>
         </div>
-        <div className="md:px-5 px-[15px] py-5 md:py-[25px] bg-[#EEEFF6] rounded-[15px] mb-[48px]">
+        <div className="md:px-5 px-[15px] py-5 md:py-[25px] bg-[#F5F5F5] rounded-[15px] mb-[48px]">
           <p className="text-[14px] md:text-[14px] leading-[22px] md:leading-[20.24px] font-medium mb-1">
             STEP 3
           </p>
@@ -311,7 +311,7 @@ const Form = () => {
             <option value="STI treatment">STI treatment</option>
             <option value="others">Others</option>
           </select>
-          <div className="bg-[#EEEFF6] p-4 mt-12 mb-[25px] rounded-lg">
+          <div className="bg-[#F5F5F5] p-4 mt-12 mb-[25px] rounded-lg">
             <p className="text-[#73738C] text-xs md:text-sm">
               By filling out this form, you agree to Priv’s{" "}
               <a

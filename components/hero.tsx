@@ -33,7 +33,7 @@ const Hero = () => {
           out of your skin care
         </p>
         <div className="mt-8 ">
-          <Link href="/book-consultation">
+          <Link href="/all-conditions">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Get started now
             </SkeenButton>
