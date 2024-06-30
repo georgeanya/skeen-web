@@ -17,7 +17,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Skeen</title>
+        <title>
+          Skeen - Convenient, expert skincare in Nigeria. Shop skincare products
+        </title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta

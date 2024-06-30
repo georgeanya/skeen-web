@@ -102,7 +102,7 @@ const Section1 = () => {
           Not sure about what condition you have?
         </p>
         <p className="md:text-[18px] md:leading-[24px] mt-4 font-normal text-[16px] leading-[22px]">
-          That&apos;s not a problem! Our dermatology providers will provide you
+          That&apos;s not a problem! Our skincare consultants will provide you
           with an expert diagnosis and treatment
         </p>
         <div className="md:mt-10 mt-6  ">

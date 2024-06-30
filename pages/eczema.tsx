@@ -17,16 +17,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Skeen Health</title>
+        <title>Eczema treatment - Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
           name="keywords"
-          content="erectile dysfunction, premature ejaculation, hair loss, low testosterone, STIs"
+          content="skincare, dermatology, skincare products, eczema, dermatologist"
         />
         <meta
           name="description"
-          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Get effective eczema treatment that works. Prescribed online by skincare consultants. No appointments, waiting rooms, or pharmacy visits."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -35,11 +35,11 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
         <meta
-          content="Skeen Health - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Eczema treatment - Skeen"
           property="og:title"
         />
         <meta
-          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Get effective eczema treatment that works. Prescribed online by skincare consultants. No appointments, waiting rooms, or pharmacy visits."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -66,11 +66,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryprivhealth" />
         <meta
           name="twitter:title"
-          content="Skeen Health - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Eczema treatment - Skeen"
         />
         <meta
           name="twitter:description"
-          content="Skeen provides private and personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Get effective eczema treatment that works. Prescribed online by skincare consultants. No appointments, waiting rooms, or pharmacy visits."
         />
         <meta
           name="twitter:image:src"
