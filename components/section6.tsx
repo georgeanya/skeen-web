@@ -15,8 +15,8 @@ const Section1 = () => {
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
             I was amazed at how quickly I got a diagnosis and treatment plan for
-            my acne - all from the comfort of my own home! The dermatologist was
-            so friendly and helpful.
+            my acne - all from the comfort of my own home! The skincare
+            consultant was so friendly and helpful.
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
@@ -28,8 +28,8 @@ const Section1 = () => {
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
             I was experiencing a skin rash and didn&apos;t know what it was.
-            Skeen connected me with a dermatologist who diagnosed it as eczema
-            and provided a treatment plan.
+            Skeen connected me with a consultant who diagnosed it as eczema and
+            provided a treatment plan.
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">

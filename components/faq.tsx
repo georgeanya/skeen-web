@@ -24,7 +24,7 @@ const Faq = () => {
     {
       question: "Who is Skeen for?",
       answer:
-        "Skeen is a teledermatology service for people with skin issues or want to improve or support their health and prefer to do so from the comfort of their homes.",
+        "Skeen is a teledermatology service for people with skin issues or want to improve their skin and prefer to do so from the comfort of their homes",
       open: true,
     },
     {
@@ -35,13 +35,13 @@ const Faq = () => {
     },
     {
       question: "How much does it cost to consult a doctor on Skeen?",
-      answer: "It cost 10,000 naira to consult a doctor on Skeen",
+      answer: "Right now, the cost of our initial consultation is NGN 10,000 — this is significantly less than what most dermatology practices charge for a consultation. You also get free follow up consultations.",
       open: false,
     },
     {
       question: "Are your dermatology providers licensed?",
       answer:
-        "Our dermatology providers are experts licensed to practice in Nigeria",
+        "Yes! All Skeen consultants are skin experts and have gone through a thorough background check.",
       open: false,
     },
     {

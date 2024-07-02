@@ -44,7 +44,7 @@ const Section2 = () => {
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2.5 md:mt-4">
               Answer a few questions about your skin concern and medical history
-              and submit photos for our dermatology provider to review
+              and submit photos for our skincare consultants to review
             </p>
           </div>
         </div>

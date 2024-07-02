@@ -20,7 +20,7 @@ const Section3 = () => {
         <div className="flex justify-between items-center">
           <p className="text-[16px] leading-[22px] md:text-[22px] md:leading-8">
             Access clinically proven treatments, supported by science and
-            prescribed by our experienced dermatology providers
+            prescribed by our experienced skincare consultants
           </p>
         </div>
         <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-[34px] text-[#C0C9D8]" />
