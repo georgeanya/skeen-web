@@ -30,7 +30,7 @@ const Faq = () => {
     {
       question: "How does Skeen work?",
       answer:
-        "First, book a consultation and with one of our doctors. The doctor will review your information and recommend a personalised treatment. Skeen will ship your treatment in discreet packaging if prescribed.",
+        "First, book a consultation and with one of our skin cosultants. The consultati will review your information and recommend a personalised treatment. Skeen will ship your treatment if prescribed.",
       open: false,
     },
     {
@@ -39,7 +39,7 @@ const Faq = () => {
       open: false,
     },
     {
-      question: "Are your dermatology providers licensed?",
+      question: "Are your skincare consultants licensed?",
       answer:
         "Yes! All Skeen consultants are skin experts and have gone through a thorough background check.",
       open: false,

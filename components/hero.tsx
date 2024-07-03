@@ -30,7 +30,7 @@ const Hero = () => {
         <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
           Your skin is not a science experiment. Get personalized skincare
           solutions from to expert dermatology providers and take the guesswork
-          out of your skin care
+          out of your skincare
         </p>
         <div className="mt-8 ">
           <Link href="/all-conditions">
