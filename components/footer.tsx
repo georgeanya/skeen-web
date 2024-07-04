@@ -116,24 +116,24 @@ const Footer = () => {
               <Link href="tel:+2347040559724">+2347040559724</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="mailto:hi@custodiahealth.com">hi@skeen.co</Link>
+              <Link href="mailto:hi@skeen.co">hi@skeen.co</Link>
             </p>
             <div className="flex">
-              <Link href="https://facebook.com/custodiahealth">
+              <Link href="https://facebook.com/tryskeen">
                 <img
                   src={fbook.src}
                   className="mr-5 cursor-pointer"
                   alt="facebook logo"
                 />
               </Link>
-              <Link href="https://instagram.com/custodiahealth">
+              <Link href="https://instagram.com/tryskeen">
                 <img
                   src={insta.src}
                   className="mr-5 cursor-pointer"
                   alt="instagram logo"
                 />
               </Link>
-              <Link href="https://twitter.com/custodiahealth">
+              <Link href="https://twitter.com/tryskeen">
                 <img
                   src={twitter.src}
                   className="mr-5 cursor-pointer"

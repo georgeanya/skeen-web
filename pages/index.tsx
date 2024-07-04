@@ -28,7 +28,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Your skin is not a science experiment. Get personalized skincare solutions from to expert dermatology providers and take the guesswork out of your skin care"
+          content="Your skin is not a science experiment. Get personalized skincare solutions from our skin consultants and take the guesswork out of your skin care"
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -41,7 +41,7 @@ export default function Home() {
           property="og:title"
         />
         <meta
-          content="Your skin is not a science experiment. Get personalized skincare solutions from to expert dermatology providers and take the guesswork out of your skin care"
+          content="Your skin is not a science experiment. Get personalized skincare solutions from our skin consultants and take the guesswork out of your skin care"
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -52,27 +52,27 @@ export default function Home() {
           property="og:image:alt"
         />
         <meta
-          content="https://instagram.com/tryprivhealth/"
+          content="https://instagram.com/tryskeen/"
           property="og:see_also"
         />
         <meta
-          content="https://facebook.com/tryprivhealth/"
+          content="https://facebook.com/tryskeen/"
           property="og:see_also"
         />
         <meta
-          content="https://twitter.com/tryprivhealth"
+          content="https://twitter.com/tryskeen"
           property="og:see_also"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@tryprivhealth" />
-        <meta name="twitter:creator" content="@tryprivhealth" />
+        <meta name="twitter:site" content="@tryskeen" />
+        <meta name="twitter:creator" content="@tryskeen" />
         <meta
           name="twitter:title"
           content="Skeen - Convenient, expert skincare in Nigeria. Shop skincare products"
         />
         <meta
           name="twitter:description"
-          content="Your skin is not a science experiment. Get personalized skincare solutions from to expert dermatology providers and take the guesswork out of your skin care"
+          content="Your skin is not a science experiment. Get personalized skincare solutions from our skin consultants and take the guesswork out of your skin care"
         />
         <meta
           name="twitter:image:src"
@@ -84,7 +84,7 @@ export default function Home() {
           name="twitter:image:alt"
           content="An image of the Skeen health logo"
         />
-        <link rel="me" href="https://twitter.com/tryprivhealth" />
+        <link rel="me" href="https://twitter.com/tryskeen" />
         <link href="https://privhealth.co/" rel="canonical" />
         <link href="https://privhealth.co/" rel="home" />
         <link href="/humans.txt" rel="author" type="text/plain" />

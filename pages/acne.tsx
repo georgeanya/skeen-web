@@ -22,7 +22,7 @@ export default function Home() {
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
           name="keywords"
-          content=" skincare, dermatology, skincare products, acne, dermatologist"
+          content=" skincare, dermatology, skincare products, acne, dermatologist"
         />
         <meta
           name="description"
@@ -35,7 +35,7 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
         <meta
-          content="Skeen - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Acne treatment - Skeen"
           property="og:title"
         />
         <meta
@@ -50,23 +50,23 @@ export default function Home() {
           property="og:image:alt"
         />
         <meta
-          content="https://instagram.com/tryprivhealth/"
+          content="https://instagram.com/tryskeen/"
           property="og:see_also"
         />
         <meta
-          content="https://facebook.com/tryprivhealth/"
+          content="https://facebook.com/tryskeen/"
           property="og:see_also"
         />
         <meta
-          content="https://twitter.com/tryprivhealth"
+          content="https://twitter.com/tryskeen"
           property="og:see_also"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@tryprivhealth" />
-        <meta name="twitter:creator" content="@tryprivhealth" />
+        <meta name="twitter:site" content="@tryskeen" />
+        <meta name="twitter:creator" content="@tryskeen" />
         <meta
           name="twitter:title"
-          content="Skeen - Personalized treatments for erectile dysfunction, premature ejaculation, hair loss, and more"
+          content="Acne treatment - Skeen"
         />
         <meta
           name="twitter:description"
@@ -82,7 +82,7 @@ export default function Home() {
           name="twitter:image:alt"
           content="An image of the Skeen health logo"
         />
-        <link rel="me" href="https://twitter.com/tryprivhealth" />
+        <link rel="me" href="https://twitter.com/tryskeen" />
         <link href="https://privhealth.co/" rel="canonical" />
         <link href="https://privhealth.co/" rel="home" />
         <link href="/humans.txt" rel="author" type="text/plain" />

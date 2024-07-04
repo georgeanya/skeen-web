@@ -34,7 +34,7 @@ const Faq = () => {
       open: false,
     },
     {
-      question: "How much does it cost to consult a doctor on Skeen?",
+      question: "How much does it cost to consult on Skeen?",
       answer: "Right now, the cost of our initial consultation is NGN 10,000 — this is significantly less than what most dermatology practices charge for a consultation. You also get free follow up consultations.",
       open: false,
     },
