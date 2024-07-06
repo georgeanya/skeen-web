@@ -47,23 +47,23 @@ const Footer = () => {
               TREATMENTS
             </h3>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="/blog">Acne</Link>
+              <Link href="/acne">Acne</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="/">Eczema</Link>
+              <Link href="/eczema">Eczema</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="https://priv-health.notion.site/Terms-of-use-254e525466a3493687d94fd671d93ad8">
-                Clogged pores
+              <Link href="/hyperpigmentation">
+                Hyperpigmentation
               </Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="https://priv-health.notion.site/Privacy-policy-2f70cbb81ab843ca920e87d2b32caa37">
-                Psoriasis
+              <Link href="skin-aging">
+              Skin aging
               </Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="https://priv-health.notion.site/Privacy-policy-2f70cbb81ab843ca920e87d2b32caa37">
+              <Link href="/all-conditions">
                 See all
               </Link>
             </p>

@@ -71,10 +71,10 @@ const Section1 = () => {
             </div>
           </Link>
           <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
-          <Link href="/psoriasis">
+          <Link href="/skin-aging">
             <div className="flex justify-between items-center">
               <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-                Psoriasis
+                Skin aging
               </p>
               <img
                 className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
@@ -84,16 +84,18 @@ const Section1 = () => {
             </div>
           </Link>
           <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
-          <div className="flex justify-between items-center">
-            <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-              See all conditions
-            </p>
-            <img
-              className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
-              src={purplearrow.src}
-              alt=""
-            />
-          </div>
+          <Link href="/all-conditions">
+            <div className="flex justify-between items-center">
+              <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
+                See all conditions
+              </p>
+              <img
+                className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
+                src={purplearrow.src}
+                alt=""
+              />
+            </div>
+          </Link>
           <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
         </div>
       </div>

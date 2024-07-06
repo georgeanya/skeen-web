@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link href="/" className="flex self-center">
             <img
               src={skeen.src}
-              className="mr-3  self-center"
+              className="mr-3  self-center w-[80px] md:w-[92px]"
               alt="Skeen health logo"
             />
           </Link>

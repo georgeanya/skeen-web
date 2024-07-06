@@ -126,8 +126,8 @@ const Blog = ({ initialBlogs }: any) => {
 
   return (
     <div>
-      <div className="px-5 md:px-[125px] md:mb-24 mb-15">
-        <p className=" text-sm md:text-[18px] leading-[24px] font-normal mt-[60px] md:mt-[70px] text-[#111111]">
+      <div className="px-5 md:px-[125px] md:mb-20 mb-15">
+        <p className=" text-sm md:text-[18px] leading-[24px] font-normal mt-[60px] md:mt-[50px] text-[#333D47]">
           <span className=" font-bold">Blog</span> | The latest stories and
           updates from the team
         </p>
@@ -139,22 +139,22 @@ const Blog = ({ initialBlogs }: any) => {
               className="cursor-pointer w-full md:w-[660px] md:h-[380px] rounded-[20px]"
             />
           </Link>
-          <div className=" md:ml-17 mt-7 md:mt-0 self-center max-w-[470px]">
+          <div className=" md:ml-17 mt-7 md:mt-[50px] self-center md:w-[460px]">
             <p className=" text-sm text-[#3E7EEE] leading-[17px]">
               {blog.attributes?.category.data.attributes.name}
             </p>
             <Link href={`/blog/${blog.attributes?.slug}`}>
-              <p className="cursor-pointer text-[#111111] font-bold text-[26px] leading-[32px] md:text-[38px] md:leading-[43px] mt-2.5 md:mt-3">
+              <p className="cursor-pointer text-[#333D47] font-bold text-[26px] leading-[32px] md:text-[34px] md:leading-[43px] mt-2.5 md:mt-3">
                 {blog.attributes?.title}
               </p>
             </Link>
             <p className="text-[#61616B] mt-4 md:mt-5 text-base md:text-lg">
               {blog.attributes?.description}
             </p>
-            <div className="flex mt-7 md:mt-10">
+            <div className="flex mt-7 md:mt-6">
               <img src={image.src} alt="" className="w-12 rounded-[25px]" />
               <div className="ml-4 self-center">
-                <p className="text-[#111111] text-sm md:text-base leading-5 font-medium">
+                <p className="text-[#333D47] text-sm md:text-base leading-5 font-medium">
                   {blog.attributes?.author.data.attributes.name}
                 </p>
                 <p className="text-[#61616B] text-xs">
@@ -168,7 +168,7 @@ const Blog = ({ initialBlogs }: any) => {
       <div>
         <div className="px-5 md:px-[125px] mb-24">
           <div className="hidden md:block">
-            <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+            <ul className="flex flex-wrap text-sm leading-[17px] font-medium text-center text-gray-500 dark:text-gray-400">
               <li className="mr-2 cursor-pointer">
                 <p
                   className={
@@ -268,7 +268,7 @@ const Blog = ({ initialBlogs }: any) => {
 
               return (
                 <Link href={`/blog/${attributes.slug}`} key={id}>
-                  <div className="max-w-[357px] md:h-[540px] flex flex-col justify-between">
+                  <div className="max-w-[357px] md:h-[540px flex flex-col justify-between">
                     <div>
                       <img
                         src={attributes.image.data.attributes.url}
@@ -276,24 +276,24 @@ const Blog = ({ initialBlogs }: any) => {
                         className="cursor-pointer w-full md:w-[357px] md:h-[205.55px] rounded-[20px]"
                       />
 
-                      <p className=" text-sm text-[#3E7EEE] mt-7">
+                      <p className=" text-sm text-[#3E7EEE] mt-[24px]">
                         {attributes.category.data.attributes.name}
                       </p>
-                      <p className="text-[#111111] font-bold text-[26px] leading-[32px] md:text-2xl md:leading-[30px] mt-2.5 md:mt-3 cursor-pointer">
+                      <p className="text-[#333D47] font-bold text-[26px] leading-[32px] md:text-[22px] md:leading-[27px] mt-2.5 md:mt-3 cursor-pointer">
                         {attributes.title}
                       </p>
-                      <p className="text-[#61616B] mt-4 md:mt-5 text-base leading-6 md:leading-7 md:text-lg">
+                      {/* <p className="text-[#61616B] mt-4 md:mt-5 text-base leading-6 md:leading-7 md:text-lg">
                         {attributes.description}
-                      </p>
+                      </p> */}
                     </div>
-                    <div className="flex mt-7 md:mt-10">
+                    <div className="flex mt-7 md:mt-4">
                       <img
                         src={image.src}
                         alt=""
                         className="w-12 rounded-[25px]"
                       />
                       <div className="ml-4 self-center">
-                        <p className="text-[#111111] text-sm md:text-base leading-5 font-medium">
+                        <p className="text-[#333D47] text-sm md:text-base leading-5 font-medium">
                           {blog.attributes.author.data.attributes.name}
                         </p>
                         <p className="text-[#61616B] text-xs">
@@ -310,10 +310,10 @@ const Blog = ({ initialBlogs }: any) => {
         </div>
       </div>
       {/* <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-28 pb-20 bg-[#EFF2FA]">
-        <p className="md:text-4xl text-2xl text-[#111111] font-bold max-w-[476px]">
+        <p className="md:text-4xl text-2xl text-[#333D47] font-bold max-w-[476px]">
           Stay updated by joining our newsletter
         </p>
-        <p className=" text-bases md:text-xl text-[#111111] max-w-[574px] mt-5 md:mt-6 mb-10 md:mb-12">
+        <p className=" text-bases md:text-xl text-[#333D47] max-w-[574px] mt-5 md:mt-6 mb-10 md:mb-12">
           Subscribe to recieve updates about our blog posts and announcements
           directly in your mailbox
         </p>

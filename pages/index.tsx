@@ -24,7 +24,7 @@ export default function Home() {
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
           name="keywords"
-          content="skincare, dermatology, skincare products, acne, dark spots, hyperpigmentation, eczema, psoriasis, dermatologist"
+          content="skincare, dermatology, skincare products, acne, dark spots, hyperpigmentation, eczema, Skin aging, dermatologist"
         />
         <meta
           name="description"
@@ -55,14 +55,8 @@ export default function Home() {
           content="https://instagram.com/tryskeen/"
           property="og:see_also"
         />
-        <meta
-          content="https://facebook.com/tryskeen/"
-          property="og:see_also"
-        />
-        <meta
-          content="https://twitter.com/tryskeen"
-          property="og:see_also"
-        />
+        <meta content="https://facebook.com/tryskeen/" property="og:see_also" />
+        <meta content="https://twitter.com/tryskeen" property="og:see_also" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tryskeen" />
         <meta name="twitter:creator" content="@tryskeen" />

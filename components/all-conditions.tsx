@@ -39,7 +39,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Eczema
+            Eczema
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -47,7 +47,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Hyperpigmentation
+            Hyperpigmentation
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -55,7 +55,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Psoriasis
+            Skin aging
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -63,7 +63,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Rosacea
+            Rosacea
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -71,7 +71,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Clogged pores
+            Clogged pores
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -79,7 +79,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Hair loss
+            Hair loss
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -87,7 +87,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Wrinkles
+          Skin aging
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
@@ -95,7 +95,7 @@ const StartSuccess = () => {
       <Link href="/book-consultation">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[52px] md:mb-10 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Other
+            Other
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>

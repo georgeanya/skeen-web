@@ -27,28 +27,28 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-       question: "What is psoriasis?",
+       question: "What is skin aging?",
        answer:
-         "Psoriasis is a chronic autoimmune condition that causes rapid buildup of skin cells, resulting in scaly, itchy, and inflamed patches on the skin.",
+         "Skin aging is a natural process that occurs over time, causing physical changes to the skin, including thinning, loss of fat and collagen, fine lines, wrinkles, dryness, age spots, and slower healing.",
        open: true,
      },
      {
-       question: "What causes psoriasis?",
+       question: "What causes skin aging?",
        answer:
-         "The exact cause of psoriasis is not fully understood, but it's believed to involve an overactive immune system and genetic factors. Triggers can include stress, infections, skin injuries, certain medications, and cold weather.",
+         "Skin aging can be caused by both intrinsic and extrinsic factors. Intrinsic factors include the natural aging process and genetics, while extrinsic factors include environmental and lifestyle choices, such as sun exposure, smoking, and repetitive facial expressions.",
        open: false,
      },
     
      {
-       question: "How do I know if I have psoriasis?",
+       question: "What are the signs of skin aging?",
        answer:
-         "Psoriasis typically presents as thick, red patches of skin covered with silvery scales. Common areas include the elbows, knees, scalp, and lower back. Other signs include dry, cracked skin that may bleed, itching, burning, or soreness, and thickened or ridged nails.",
+         "Signs of skin aging include thinning, sagging, wrinkling, age spots, broken blood vessels, dryness, and itchiness.",
        open: false,
      },
      {
-       question: "How long does it take to clear psoriasis?",
+       question: "Can skin aging be reversed?",
        answer:
-         "There is no cure for psoriasis, but treatments can help manage symptoms. With proper treatment, many people see improvement in 1-3 months. However, psoriasis is a chronic condition with periods of remission and flare-ups, so ongoing management is usually necessary. The duration and effectiveness of treatment can vary significantly between individuals.",
+         "Some signs of skin aging can be reversed, but it depends on the severity of the aging and the effectiveness of the treatment.",
        open: false,
      },
      
