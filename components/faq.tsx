@@ -78,7 +78,7 @@ const Faq = () => {
         ))}
         {/* <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-8 mb-6 md:mb-12 " /> */}
       </div>
-      <div className="mt-[60px] hidden md:flex">
+      <div className="mt-[60px]">
         <Link href="/book-consultation">
           <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
             See all FAQs
