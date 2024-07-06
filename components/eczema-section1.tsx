@@ -71,7 +71,7 @@ const Section1 = () => {
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[60px]">
-          What you should know about Eczema
+          What you should know about eczema
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="/book-consultation">

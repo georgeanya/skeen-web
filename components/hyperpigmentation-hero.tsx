@@ -25,10 +25,10 @@ const Hero = () => {
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 flex flex-col md:flex-row md:justify-between">
       <div className=" md:max-w-[549px] pt-[42px] md:pb-0 md:pt-[162px]">
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
-        Get expert Hyperpigmentation treatment online
+        Get expert hyperpigmentation treatment online
         </p>
         <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
-        Get effective Hyperpigmentation treatments that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits
+        Get effective hyperpigmentation treatments that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits
         </p>
         <div className="mt-8 ">
           <Link href="/book-consultation">
