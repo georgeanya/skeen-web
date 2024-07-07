@@ -15,7 +15,7 @@ const SkeenButton = styled(Button)({
   borderRadius: "32px",
   textTransform: "none",
   ["@media (max-width:780px)"]: {
-    padding: "15px 30px",
+    padding: "16px 30px",
   },
 });
 
@@ -68,7 +68,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-[66px]">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-36 pb-[90px]">
       <p className=" text-[28px] leading-[35px] md:text-start md:text-[38px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]  mb-[60px] md:mb-[80px] pr-8">
         Frequently asked questions
       </p>
@@ -78,9 +78,9 @@ const Faq = () => {
         ))}
         {/* <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-8 mb-6 md:mb-12 " /> */}
       </div>
-      <div className="mt-[60px]">
+      <div className="mt-[40px] md:mt-[60px]">
         <Link href="/book-consultation">
-          <SkeenButton className="text-xs md:text-base md:leading-5 font-medium">
+          <SkeenButton className="text-sm leading-[17px] md:text-base md:leading-5 font-medium">
             See all FAQs
           </SkeenButton>
         </Link>
