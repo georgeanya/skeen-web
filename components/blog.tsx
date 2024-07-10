@@ -127,7 +127,7 @@ const Blog = ({ initialBlogs }: any) => {
   return (
     <div>
       <div className="px-5 md:px-[125px] md:mb-20 mb-15">
-        <p className=" text-sm md:text-[18px] leading-[24px] font-normal mt-[60px] md:mt-[50px] text-[#333D47]">
+        <p className=" text-sm md:text-[18px] leading-[24px] font-normal mt-[27px] md:mt-[50px] text-[#333D47]">
           <span className=" font-bold">Blog</span> | The latest stories and
           updates from the team
         </p>
@@ -136,25 +136,25 @@ const Blog = ({ initialBlogs }: any) => {
             <img
               src={ImgUrl}
               alt=""
-              className="cursor-pointer w-full md:w-[660px] md:h-[380px] rounded-[20px]"
+              className="cursor-pointer w-full md:w-[660px] md:h-[380px] -[20px]"
             />
           </Link>
-          <div className=" md:ml-17 mt-7 md:mt-[50px] self-center md:w-[460px]">
+          <div className=" md:ml-17 mt-6 md:mt-[50px] self-center md:w-[460px]">
             <p className=" text-sm text-[#3E7EEE] leading-[17px]">
               {blog.attributes?.category.data.attributes.name}
             </p>
             <Link href={`/blog/${blog.attributes?.slug}`}>
-              <p className="cursor-pointer text-[#333D47] font-bold text-[26px] leading-[32px] md:text-[34px] md:leading-[43px] mt-2.5 md:mt-3">
+              <p className="cursor-pointer text-[#333D47] font-bold text-[22px] leading-[27px] md:text-[34px] md:leading-[43px] mt-3">
                 {blog.attributes?.title}
               </p>
             </Link>
-            <p className="text-[#61616B] mt-4 md:mt-5 text-base md:text-lg">
+            <p className="text-[#61616B] mt-2 md:mt-5 text-[15px] leading-[22px] md:text-lg">
               {blog.attributes?.description}
             </p>
-            <div className="flex mt-7 md:mt-6">
+            <div className="flex mt-5 md:mt-6 mb-[60px] md:mb-0">
               <img src={image.src} alt="" className="w-12 rounded-[25px]" />
               <div className="ml-4 self-center">
-                <p className="text-[#333D47] text-sm md:text-base leading-5 font-medium">
+                <p className="text-[#333D47] text-sm md:text-base leading-[17px] font-medium">
                   {blog.attributes?.author.data.attributes.name}
                 </p>
                 <p className="text-[#61616B] text-xs">
@@ -173,8 +173,8 @@ const Blog = ({ initialBlogs }: any) => {
                 <p
                   className={
                     toggleState === "All"
-                      ? "inline-block px-5 py-3 text-white bg-[#3E7EEE] rounded-3xl active"
-                      : "inline-block px-6 py-3 text-[#61616B]"
+                      ? "inline-block px-5 py-[14px] text-white bg-[#3E7EEE] text-sm leading-[17px] rounded-3xl active"
+                      : "inline-block px-6 py-[14px] text-sm leading-[17px] text-[#61616B]"
                   }
                   onClick={() => toggleTab("All")}
                 >
@@ -185,8 +185,8 @@ const Blog = ({ initialBlogs }: any) => {
                 <p
                   className={
                     toggleState === "Sexual health"
-                      ? "inline-block px-5 py-3 text-white bg-[#3E7EEE] rounded-3xl active"
-                      : "inline-block px-6 py-3 text-[#61616B]"
+                      ? "inline-block px-5 py-[14px] text-white bg-[#3E7EEE] text-sm leading-[17px] rounded-3xl active"
+                      : "inline-block px-6 py-[14px] text-sm leading-[17px] text-[#61616B]"
                   }
                   onClick={() => toggleTab("Sexual health")}
                 >
@@ -197,8 +197,8 @@ const Blog = ({ initialBlogs }: any) => {
                 <p
                   className={
                     toggleState === "Hair"
-                      ? "inline-block px-5 py-3 text-white bg-[#3E7EEE] rounded-3xl active"
-                      : "inline-block px-6 py-3 text-[#61616B]"
+                      ? "inline-block px-5 py-[14px] text-white bg-[#3E7EEE] text-sm leading-[17px] rounded-3xl active"
+                      : "inline-block px-6 py-[14px] text-sm leading-[17px] text-[#61616B]"
                   }
                   onClick={() => toggleTab("Hair")}
                 >
@@ -209,8 +209,8 @@ const Blog = ({ initialBlogs }: any) => {
                 <p
                   className={
                     toggleState === "General health"
-                      ? "inline-block px-5 py-3 text-white bg-[#3E7EEE] rounded-3xl active"
-                      : "inline-block px-6 py-3 text-[#61616B]"
+                      ? "inline-block px-5 py-[14px] text-white bg-[#3E7EEE] text-sm leading-[17px] rounded-3xl active"
+                      : "inline-block px-6 py-[14px] text-sm leading-[17px] text-[#61616B]"
                   }
                   onClick={() => toggleTab("General health")}
                 >
@@ -221,8 +221,8 @@ const Blog = ({ initialBlogs }: any) => {
                 <p
                   className={
                     toggleState === "Engineering"
-                      ? "inline-block px-5 py-3 text-white bg-[#3E7EEE] rounded-3xl active"
-                      : "inline-block px-6 py-3 text-[#61616B]"
+                      ? "inline-block px-5 py-[14px] text-white bg-[#3E7EEE] text-sm leading-[17px] rounded-3xl active"
+                      : "inline-block px-6 py-[14px] text-sm leading-[17px] text-[#61616B]"
                   }
                   onClick={() => toggleTab("Engineering")}
                 >
@@ -233,8 +233,8 @@ const Blog = ({ initialBlogs }: any) => {
                 <p
                   className={
                     toggleState === "Company"
-                      ? "inline-block px-5 py-3 text-white bg-[#3E7EEE] rounded-3xl active"
-                      : "inline-block px-6 py-3 text-[#61616B]"
+                      ? "inline-block px-5 py-[14px] text-white bg-[#3E7EEE] text-sm leading-[17px] rounded-3xl active"
+                      : "inline-block px-6 py-[14px] text-sm leading-[17px] text-[#61616B]"
                   }
                   onClick={() => toggleTab("Company")}
                 >
@@ -260,7 +260,7 @@ const Blog = ({ initialBlogs }: any) => {
               <option value="Company">Company</option>
             </select>
           </div>
-          <div className="mt-10 grid md:grid-cols-3 md:grid-rows-1 md:gap-y-26 gap-[60px] md:mb-18 mb-[60px]">
+          <div className="mt-10 grid md:grid-cols-3 md:grid-rows-1 gap-[60px] md:mb-18 mb-[60px]">
             {blogsToDisplay?.map((blogpost: any) => {
               const blog = blogpost;
               const { id, attributes } = blog;
@@ -273,20 +273,20 @@ const Blog = ({ initialBlogs }: any) => {
                       <img
                         src={attributes.image.data.attributes.url}
                         alt=""
-                        className="cursor-pointer w-full md:w-[357px] md:h-[205.55px] rounded-[20px]"
+                        className="cursor-pointer w-full md:w-[357px] md:h-[205.55px] -[20px]"
                       />
 
-                      <p className=" text-sm text-[#3E7EEE] mt-[24px]">
+                      <p className=" text-sm leading-[17px] text-[#3E7EEE] mt-[24px]">
                         {attributes.category.data.attributes.name}
                       </p>
-                      <p className="text-[#333D47] font-bold text-[26px] leading-[32px] md:text-[22px] md:leading-[27px] mt-2.5 md:mt-3 cursor-pointer">
+                      <p className="text-[#333D47] font-bold text-[22px] leading-[27px] md:text-[22px] md:leading-[27px] mt-3 cursor-pointer">
                         {attributes.title}
                       </p>
                       {/* <p className="text-[#61616B] mt-4 md:mt-5 text-base leading-6 md:leading-7 md:text-lg">
                         {attributes.description}
                       </p> */}
                     </div>
-                    <div className="flex mt-7 md:mt-4">
+                    <div className="flex mt-3 md:mt-4">
                       <img
                         src={image.src}
                         alt=""

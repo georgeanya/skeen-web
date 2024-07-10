@@ -10,16 +10,16 @@ const BlogHome = () => {
     <div>
       <Head>
         <meta charSet="UTF-8" />
-        <title>Priv Health Blog</title>
+        <title>Skeen Blog</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
           name="keywords"
-          content="erectile dysfunction, premature ejaculation, hair loss, low testosterone, STIs, blog, priv health blog"
+          content="skincare, dermatology, skincare products, acne, dark spots, hyperpigmentation, eczema, Skin aging, dermatologist, blog, skeen blog"
         />
         <meta
           name="description"
-          content="Find insightful tips and discover effective solutions for common men's health concerns"
+          content="Get expert skincare advice, ingredient deep-dives, and success stories on the Skeen blog. Get tips from skin consultants, learn about custom treatments, and stay updated on the latest in personalized skincare"
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -29,14 +29,14 @@ const BlogHome = () => {
         <meta content="https://privhealth.co/blog" property="og:url" />
         <meta content="Priv Health Blog" property="og:title" />
         <meta
-          content="Find insightful tips and discover effective solutions for common men's health concerns"
+          content="Get expert skincare advice, ingredient deep-dives, and success stories on the Skeen blog. Get tips from skin consultants, learn about custom treatments, and stay updated on the latest in personalized skincare"
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
         <meta content="785" property="og:image:width" />
         <meta content="394" property="og:image:height" />
         <meta
-          content="An image of the Priv Health logo"
+          content="An image of the Skeen logo"
           property="og:image:alt"
         />
         <meta
@@ -57,7 +57,7 @@ const BlogHome = () => {
         <meta name="twitter:title" content="Priv Health Blog" />
         <meta
           name="twitter:description"
-          content="Find insightful tips and discover effective solutions for common men's health concerns"
+          content="Get expert skincare advice, ingredient deep-dives, and success stories on the Skeen blog. Get tips from skin consultants, learn about custom treatments, and stay updated on the latest in personalized skincare"
         />
         <meta
           name="twitter:image:src"
@@ -67,7 +67,7 @@ const BlogHome = () => {
         <meta name="twitter:image:height" content="394" />
         <meta
           name="twitter:image:alt"
-          content="An image of the Priv Health logo"
+          content="An image of Skeen logo"
         />
         <link rel="me" href="https://twitter.com/tryskeen" />
         <link href="https://privhealth.co/" rel="canonical" />
