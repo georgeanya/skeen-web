@@ -14,7 +14,7 @@
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 31px;
-  list-style-position: inside;
+  padding-left: 20px;
 }
 
 .reactMarkDown li {
@@ -65,9 +65,9 @@
     margin-bottom: 10px;
   }
   .reactMarkDown p {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 30px;
-    line-height: 27px;
+    line-height: 1.6rem;
   }
   .reactMarkDown a {
     text-decoration: underline;
@@ -84,18 +84,18 @@
   }
   .reactMarkDown ol {
     list-style-type: decimal;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 30px;
-    line-height: 27px;
+    line-height: 1.6rem;
     padding-left: 20px;
   }
 
   .reactMarkDown ul {
     list-style-type: disc;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 30px;
-    line-height: 27px;
-    list-style-position: inside;
+    line-height: 1.6rem;
+    padding-left: 20px;
   }
   
 }
