@@ -6,6 +6,15 @@
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 31px;
+  list-style-position: inside;
+}
+
+.reactMarkDown ul {
+  list-style-type: disc;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 31px;
+  list-style-position: inside;
 }
 
 .reactMarkDown li {
@@ -78,6 +87,15 @@
     font-size: 16px;
     margin-bottom: 30px;
     line-height: 27px;
-    padding-left: 20px;
+    list-style-position: inside;
   }
+
+  .reactMarkDown ul {
+    list-style-type: decimal;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 27px;
+    list-style-position: inside;
+  }
+  
 }
