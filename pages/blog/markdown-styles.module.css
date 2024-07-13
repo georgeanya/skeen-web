@@ -40,7 +40,7 @@
   line-height: 31px;
 }
 .reactMarkDown a {
-  text-decoration: underline;
+  font-weight: 600;
   color: #3e7eee;
 }
 .reactMarkDown img {
@@ -70,7 +70,8 @@
     line-height: 1.6rem;
   }
   .reactMarkDown a {
-    text-decoration: underline;
+    font-weight: 600;
+    color: #3e7eee;
   }
   .reactMarkDown img {
     margin-top: 5px;
@@ -97,5 +98,4 @@
     line-height: 1.6rem;
     padding-left: 20px;
   }
-  
 }
