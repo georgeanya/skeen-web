@@ -124,7 +124,7 @@ const BlogPost = ({ blog }: any) => {
 
   return (
     <div>
-      <div className="md:px-[245px] md:pt-[70px] pt-[60px] px-5">
+      <div className="md:px-[245px] md:pt-[50px] pt-[60px] px-5">
         <div className="flex text-[#3E7EEE] md:text-[14px] md:leading-[19px] text-[14px] leading-[16.5px]">
           <p>{fetchedBlog?.attributes?.category.data.attributes?.name}</p>
           <p className="px-1">•</p>
