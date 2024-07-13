@@ -7,21 +7,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { GetServerSideProps } from "next";
 
-const SustainOutlineButton = styled(Button)({
-  background: "white !important",
-  fontFamily: "Circular Std",
-  color: "#3E7EEE",
-  cursor: "pointer",
-  padding: "20px 30px",
-  margin: "0px 0px",
-  border: "1px solid #3E7EEE",
-  borderRadius: "32px",
-  textTransform: "none",
-  lineHeight: "20px",
-  ["@media (max-width:780px)"]: {
-    padding: "16px 30px",
-  },
-});
 
 const SkeenButton = styled(Button)({
   background: "#3E7EEE !important",
@@ -162,7 +147,7 @@ const Blog = ({ initialBlogs }: any) => {
             <img
               src={ImgUrl}
               alt=""
-              className="cursor-pointer w-full md:w-[660px] md:h-[380px] -[20px]"
+              className="cursor-pointer w-full md:w-[660px] md:h-[380px]"
             />
           </Link>
           <div className=" md:ml-17 mt-6 md:mt-0 self-center md:w-[460px]">
@@ -273,7 +258,7 @@ const Blog = ({ initialBlogs }: any) => {
             <select
               name="category"
               onChange={handleSelect}
-              className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 bg-white h-11 md:h-12"
+              className="border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 bg-white h-11 md:h-12"
             >
               <option hidden defaultValue={"Browse by category"}>
                 Browse by category
@@ -299,7 +284,7 @@ const Blog = ({ initialBlogs }: any) => {
                       <img
                         src={attributes.image.data.attributes.url}
                         alt=""
-                        className="cursor-pointer w-full md:w-[357px] md:h-[205.55px] -[20px]"
+                        className="cursor-pointer w-full md:w-[357px] md:h-[205.55px]"
                       />
 
                       <p className=" text-sm leading-[17px] text-[#3E7EEE] mt-[24px]">
@@ -357,7 +342,7 @@ const Blog = ({ initialBlogs }: any) => {
             {blogsToDisplay2?.map((blogpost: any) => {
               const blog = blogpost;
               const { id, attributes } = blog;
-              console.log(attributes.category);
+              
 
               return (
                 <Link href={`/blog/${attributes.slug}`} key={id}>
