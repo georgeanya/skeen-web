@@ -124,7 +124,7 @@ const BlogPost = ({ blog }: any) => {
 
   return (
     <div>
-      <div className="md:px-[245px] md:pt-[50px] pt-[60px] px-5">
+      <div className="md:px-[245px] md:pt-[50px] pt-[60px] px-5 md:pb-[130px] pb-[90px] ">
         <div className="flex text-[#3E7EEE] md:text-[14px] md:leading-[19px] text-[14px] leading-[16.5px]">
           <p>{fetchedBlog?.attributes?.category.data.attributes?.name}</p>
           <p className="px-1">•</p>
@@ -144,7 +144,7 @@ const BlogPost = ({ blog }: any) => {
             <p className="text-[#111111] text-sm md:text-base font-medium">
               {fetchedBlog?.attributes?.author.data.attributes?.name}
             </p>
-            <p className="text-[#61616B] text-xs">
+            <p className="text-[#6C7884] text-xs">
               {fetchedBlog?.attributes?.author.data.attributes?.team}
             </p>
           </div>
