@@ -135,7 +135,7 @@ const BlogPost = ({ blog }: any) => {
             />
           </p>
         </div>
-        <h1 className="mt-3 md:mt-4 md:text-[48px] md:leading-[61px] leading-[40px] text-[30px] text-[#111111] font-bold">
+        <h1 className="mt-3 md:mt-4 md:text-[48px] md:leading-[61px] leading-[40px] text-[30px] text-[#333D47] font-bold">
           {fetchedBlog?.attributes?.title}
         </h1>
         <div className="flex mt-6">
