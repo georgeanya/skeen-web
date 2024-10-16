@@ -32,7 +32,7 @@ const Hero = () => {
           skin and get a personalized skin-aging formula made just for you
         </p>
         <div className="mt-8 ">
-          <Link href="/book-consultation">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Get started now
             </SkeenButton>

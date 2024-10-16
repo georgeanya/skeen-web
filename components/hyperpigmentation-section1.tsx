@@ -55,48 +55,48 @@ const Section1 = () => {
       answer:
         "The  Pigmentation Formula can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
       open: false,
-    }
-   ]);
- 
-   const toggleFAQ = (index: number) => {
-     setFaqs(
-       faqs.map((faq, i) => {
-         if (i === index) {
-           faq.open = !faq.open;
-         } else {
-           faq.open = false;
-         }
- 
-         return faq;
-       })
-     );
-   };
+    },
+  ]);
+
+  const toggleFAQ = (index: number) => {
+    setFaqs(
+      faqs.map((faq, i) => {
+        if (i === index) {
+          faq.open = !faq.open;
+        } else {
+          faq.open = false;
+        }
+
+        return faq;
+      })
+    );
+  };
   return (
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[36px]">
-        FAQs about the pigmentation formula
+          FAQs about the pigmentation formula
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
-          <Link href="/book-consultation">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-xs md:text-base font-medium">
-            Get your formula now
+              Get your formula now
             </SkeenButton>
           </Link>
         </div>
       </div>
       <div className="mt-[60xp] md:mt-0 md:w-full md:ml-[100px] mb-[40px] md:mb-0">
-      {faqs.map((faq, index) => (
-              <FAQ2 faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
-            ))}
+        {faqs.map((faq, index) => (
+          <FAQ2 faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
+        ))}
       </div>
       <div className=" md:hidden">
-          <Link href="/book-consultation">
-            <SkeenButton className="text-sm md:text-base font-medium">
-              Start your consultation
-            </SkeenButton>
-          </Link>
-        </div>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+          <SkeenButton className="text-sm md:text-base font-medium">
+            Start your consultation
+          </SkeenButton>
+        </Link>
+      </div>
     </div>
   );
 };

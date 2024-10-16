@@ -87,9 +87,9 @@ const Section2 = () => {
         </div>
       </div>
       <div className="md:mt-[60px] mt-10">
-        <Link href="/book-consultation">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
           <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-          Get your formula now
+            Get your formula now
           </SkeenButton>
         </Link>
       </div>

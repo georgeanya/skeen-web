@@ -123,7 +123,7 @@ const Navbar = () => {
                   </Link>
                 </li> */}
                 <li className="ml-[35px]">
-                  <Link href="/book-consultation">
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
                     <SkeenButton className="text-sm leading-[17px]">
                       Get started now
                     </SkeenButton>
@@ -139,10 +139,7 @@ const Navbar = () => {
           ) : (
             <ul className="pt-5">
               <li>
-                <Link
-                  href="/all-conditions"
-                  className="block text-sm py-4"
-                >
+                <Link href="/all-conditions" className="block text-sm py-4">
                   Treatments
                 </Link>
               </li>
@@ -165,7 +162,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="mt-3">
-                <Link href="/book-consultation">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
                   <SkeenButton className="text-sm ">
                     Get started now
                   </SkeenButton>

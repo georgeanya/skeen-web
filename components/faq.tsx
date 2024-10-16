@@ -28,14 +28,16 @@ const Faq = () => {
       open: true,
     },
     {
-      question: "What makes Skeen different from store-bought skincare products?",
+      question:
+        "What makes Skeen different from store-bought skincare products?",
       answer:
         "Unlike store-bought products, Skeen offers personalized prescription formulas based on your unique skin type and concerns. Our products are crafted by dermatology providers and include active ingredients that target specific skin issues, which aren't always available in over-the-counter products, making it more effective than over-the-counter products",
       open: false,
     },
     {
       question: "Are the ingredients safe to use?",
-      answer: "Yes, Skeen’s ingredients are safe and approved by dermatology providers. We use clinically proven, FDA-approved ingredients like tretinoin, clindamycin, and niacinamide, which are commonly prescribed by dermatologists.",
+      answer:
+        "Yes, Skeen’s ingredients are safe and approved by dermatology providers. We use clinically proven, FDA-approved ingredients like tretinoin, clindamycin, and niacinamide, which are commonly prescribed by dermatologists.",
       open: false,
     },
     {
@@ -79,7 +81,7 @@ const Faq = () => {
         {/* <hr className="h-[0.5px] border-t-[0.5px] my-6 md:my-8 mb-6 md:mb-12 " /> */}
       </div>
       <div className="mt-[40px] md:mt-[60px]">
-        <Link href="/book-consultation">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
           <SkeenButton className="text-sm leading-[17px] md:text-base md:leading-5 font-medium">
             See all FAQs
           </SkeenButton>

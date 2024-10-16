@@ -32,7 +32,7 @@ const Section4 = () => {
           healthy, glowing, and fresh
         </p>
         <div className="mt-8 ">
-          <Link href="/book-consultation">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-sm md:text-base  md:leading-5 font-medium">
               Start shopping now
             </SkeenButton>

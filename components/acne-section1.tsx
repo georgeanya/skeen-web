@@ -55,7 +55,7 @@ const Section1 = () => {
       answer:
         "The Acne Formula can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
       open: false,
-    }
+    },
   ]);
 
   const toggleFAQ = (index: number) => {
@@ -78,7 +78,7 @@ const Section1 = () => {
           FAQs about the acne formula
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
-          <Link href="/book-consultation">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-xs md:text-base font-medium">
               Get your formula now
             </SkeenButton>
@@ -91,7 +91,7 @@ const Section1 = () => {
         ))}
       </div>
       <div className=" md:hidden">
-        <Link href="/book-consultation">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
           <SkeenButton className="text-sm md:text-base font-medium">
             Start your consultation
           </SkeenButton>

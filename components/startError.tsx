@@ -31,7 +31,7 @@ const StartError = ({ toggle, toggleFav }: props) => {
       <p className="mt-4 text-base md:text-lg font-normal md:pr-8 md:text-start text-[#111111] mb-7">
         Please make sure we’ve got your details right and try again.
       </p>
-      <Link href="/book-consultation">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <SkeenButton
           className="self-center text-sm md:text-base font-medium"
           type="submit"

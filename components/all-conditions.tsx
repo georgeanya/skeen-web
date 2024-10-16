@@ -23,28 +23,30 @@ const SkeenButton = styled(Button)({
 
 const StartSuccess = () => {
   return (
-    <div className="max-w-[400px] mx-5 sm:mx-auto mt-[25px] md:mt-10">
+    <div className="max-w-[400px] mx-5 sm:mx-auto mt-[25px] md:mt-10 pb-20 md:pb-24">
       <p className=" leading-tight md:text-[28px] text-2xl font-bold text-[#3E7EEE] text-center">
-        What’s your skin concern?
+        Get the right treatment for your skin
       </p>
-
-      <Link href="/book-consultation">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[35px] items-center">
+      <p className="text-[16px] leading-[22px] md:text-[18px] md:leading-[22px] text-center mt-3">
+        Start by choosing your skin condition
+      </p>
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[28px]  items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
             Acne
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
       </Link>
-      <Link href="/book-consultation">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Eczema
+            Ageing
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
       </Link>
-      <Link href="/book-consultation">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
             Hyperpigmentation
@@ -52,50 +54,26 @@ const StartSuccess = () => {
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
       </Link>
-      <Link href="/book-consultation">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Skin aging
+            Melasma
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
       </Link>
-      <Link href="/book-consultation">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Rosacea
+            I’m not sure
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
       </Link>
-      <Link href="/book-consultation">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Clogged pores
-          </p>
-          <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
-        </div>
-      </Link>
-      <Link href="/book-consultation">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
-          <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Hair loss
-          </p>
-          <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
-        </div>
-      </Link>
-      <Link href="/book-consultation">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
-          <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-          Skin aging
-          </p>
-          <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
-        </div>
-      </Link>
-      <Link href="/book-consultation">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[52px] md:mb-10 flex justify-between mt-[12px] items-center">
-          <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Other
+            Shop routine essentials
           </p>
           <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
         </div>
