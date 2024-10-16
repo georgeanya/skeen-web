@@ -22,32 +22,32 @@ const SkeenButton = styled(Button)({
 const Faq = () => {
   const [faqs, setFaqs] = useState([
     {
-      question: "Who is Skeen for?",
+      question: "What is Skeen?",
       answer:
-        "Skeen is a teledermatology service for people with skin issues or want to improve their skin and prefer to do so from the comfort of their homes",
+        "Skeen is a personalized skincare service that provides custom prescription treatments for acne, anti-aging, hyperpigmentation, and other skin concerns. Our formulas are tailored to each person’s skin needs, designed by licensed dermatology providers.",
       open: true,
     },
     {
-      question: "How does Skeen work?",
+      question: "What makes Skeen different from store-bought skincare products?",
       answer:
-        "First, book a consultation and with one of our skin cosultants. The consultati will review your information and recommend a personalised treatment. Skeen will ship your treatment if prescribed.",
+        "Unlike store-bought products, Skeen offers personalized prescription formulas based on your unique skin type and concerns. Our products are crafted by dermatology providers and include active ingredients that target specific skin issues, which aren't always available in over-the-counter products, making it more effective than over-the-counter products",
       open: false,
     },
     {
-      question: "How much does it cost to consult on Skeen?",
-      answer: "Right now, the cost of our initial consultation is NGN 10,000 — this is significantly less than what most dermatology practices charge for a consultation. You also get free follow up consultations.",
+      question: "Are the ingredients safe to use?",
+      answer: "Yes, Skeen’s ingredients are safe and approved by dermatology providers. We use clinically proven, FDA-approved ingredients like tretinoin, clindamycin, and niacinamide, which are commonly prescribed by dermatologists.",
       open: false,
     },
     {
-      question: "Are your skincare consultants licensed?",
+      question: "When can I expect to start seeing results with my formula?",
       answer:
-        "Yes! All Skeen consultants are skin experts and have gone through a thorough background check.",
+        "Most users begin to see noticeable improvements in their skin within 6 to 12 weeks of consistent use. However, everyone's skin is unique, so your timeline may differ.",
       open: false,
     },
     {
-      question: "Are my consultations private?",
+      question: "Are your dermatology providers qualified?",
       answer:
-        "All consultations on Skeen are carried out in the strictest respect of medical secrecy.",
+        " Yes, Skeen’s dermatology providers are licensed and qualified healthcare professionals, who specialize in skincare. They are trained to assess your skin needs and prescribe appropriate treatments, ensuring you receive expert guidance throughout your skincare journey.",
       open: false,
     },
   ]);

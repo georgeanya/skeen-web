@@ -44,7 +44,8 @@ const Section2 = () => {
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2.5 md:mt-4">
               Answer a few questions about your skin concern and medical history
-              and submit photos for our skincare consultants to review
+              and submit photos to help us create the right formula for your
+              skin
             </p>
           </div>
         </div>
@@ -88,7 +89,7 @@ const Section2 = () => {
       <div className="md:mt-[60px] mt-10">
         <Link href="/book-consultation">
           <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-            Get started now
+          Get your formula now
           </SkeenButton>
         </Link>
       </div>

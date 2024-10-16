@@ -27,31 +27,35 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-       question: "What is skin aging?",
-       answer:
-         "Skin aging is a natural process that occurs over time, causing physical changes to the skin, including thinning, loss of fat and collagen, fine lines, wrinkles, dryness, age spots, and slower healing.",
-       open: true,
-     },
-     {
-       question: "What causes skin aging?",
-       answer:
-         "Skin aging can be caused by both intrinsic and extrinsic factors. Intrinsic factors include the natural aging process and genetics, while extrinsic factors include environmental and lifestyle choices, such as sun exposure, smoking, and repetitive facial expressions.",
-       open: false,
-     },
-    
-     {
-       question: "What are the signs of skin aging?",
-       answer:
-         "Signs of skin aging include thinning, sagging, wrinkling, age spots, broken blood vessels, dryness, and itchiness.",
-       open: false,
-     },
-     {
-       question: "Can skin aging be reversed?",
-       answer:
-         "Some signs of skin aging can be reversed, but it depends on the severity of the aging and the effectiveness of the treatment.",
-       open: false,
-     },
-     
+      question: "How do I use my Anti-aging Formula?",
+      answer:
+        "After cleansing your skin, apply one pump to your fingertips and gently massage onto your face - or as directed by your dermatology provider.",
+      open: true,
+    },
+    {
+      question: "When will I see results?",
+      answer:
+        "Many patients using the Anti-aging Formula see noticeable results within 6 to 12 weeks with consistent use. However, everyone's skin is unique, so your timeline may differ.",
+      open: false,
+    },
+
+    {
+      question: "How long will my Anti-aging formula last?",
+      answer: "One bottle contains approximately a 2-month supply.",
+      open: false,
+    },
+    {
+      question: "Can I use other products with my Anti-aging Formula?",
+      answer:
+        "Yes, you can, but since the Anti-aging Formula contains clinical-strength actives, we recommend simplifying your routine to gentle cleansing and moisturizing in conjunction with your formula. Your dermatology provider will provide more information about incorporating your formula into your skincare routine.",
+      open: false,
+    },
+    {
+      question: "What type of skin does the Anti-aging Formula work for?",
+      answer:
+        "The  Anti-aging Formula can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
+      open: false,
+    }
    ]);
  
    const toggleFAQ = (index: number) => {
@@ -70,13 +74,13 @@ const Section1 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
-        <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[60px]">
-          What you should know about skin aging
+        <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold  md:mr-0  mb-[36px]">
+        FAQs about the anti-aging formula
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="/book-consultation">
             <SkeenButton className="text-xs md:text-base font-medium">
-              Start your consultation
+            Get your formula now
             </SkeenButton>
           </Link>
         </div>

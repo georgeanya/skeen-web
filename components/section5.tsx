@@ -10,9 +10,9 @@ const Section5 = () => {
           Designed by skincare experts, just for you
         </p>
         <p className="mt-6 md:mt-[30px] text-xl font-normal pr-3 md:pr-0 md:text-start md:text-[24px] md:leading-9 text-[#333D47]">
-          “Our goal is to provide convenient, affordable, and personalized skin
-          care solutions from qualified skincare consultants, empowering
-          everyone to feel confident in their skin.”
+          ““We believe that everyone deserves skincare tailored to their unique
+          needs, and our custom formulations are designed to empower individuals
+          on their journey to healthier skin.””
         </p>
         <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] mt-6 md:mt-7 mb-1. font-medium">
           Rahmah Olubiyi

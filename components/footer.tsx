@@ -23,18 +23,18 @@ const SkeenButton = styled(Button)({
 
 const Footer = () => {
   return (
-    <div className="bg-[#181C26] md:px-[125px] px-5 md:pt-36 pt-20 text-white">
+    <div className="bg-[#181C26] md:px-[125px] px-5 md:pt-[110px] pt-20 text-white">
       <div className="text-center">
         <p className="text-[34px] leading-[43px] md:text-[50px] md:leading-[68px] font-bold mb-5 md:mb-[22px]">
-          Start improving your skin
+          Ready for your clearest skin?
         </p>
         <p className="text-lg leading-6 md:text-[22px] md:leading-[30px] font-normal md:mb-[48px] mb-8 max-w-2xl flex justify-center m-auto">
-          Complete an online consultation so a licensed dermatology provider can
-          help you find relief
+          Complete an online visit and get your custom formula prepared by a
+          licensed dermatology provider
         </p>
         <Link href="/book-consultation">
           <SkeenButton className="self-center text-sm md:text-base font-medium">
-            Get started today
+            Get your formula now
           </SkeenButton>
         </Link>
       </div>
@@ -50,22 +50,10 @@ const Footer = () => {
               <Link href="/acne">Acne</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="/eczema">Eczema</Link>
+              <Link href="skin-aging">Anti aging</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="/hyperpigmentation">
-                Hyperpigmentation
-              </Link>
-            </p>
-            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="skin-aging">
-              Skin aging
-              </Link>
-            </p>
-            <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="/all-conditions">
-                See all
-              </Link>
+              <Link href="/pigmentation">Pigmentation</Link>
             </p>
           </div>
           <div className="w-40 md:w-[245px]">

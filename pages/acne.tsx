@@ -9,15 +9,16 @@ import metaCard from "../public/assets/skeen-metacard.png";
 import Script from "next/script";
 import Section1 from "@/components/acne-section1";
 import Section3 from "@/components/section3";
-import Section4 from "@/components/section4";
+import Section4 from "@/components/section4b";
 import Section5 from "@/components/section5";
 import Section6 from "@/components/section6";
+import Section2b from "@/components/section2b";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Acne treatment - Skeen</title>
+        <title>Acne Formula | Custom Acne Treatment | Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
@@ -26,7 +27,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Get effective acne treatment that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits"
+          content="Achieve clearer skin with a custom prescription acne formula, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -34,12 +35,9 @@ export default function Home() {
         <meta content="en_US" property="og:locale" />
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
+        <meta content="Acne Formula | Custom Acne Treatment | Skeen" property="og:title" />
         <meta
-          content="Acne treatment - Skeen"
-          property="og:title"
-        />
-        <meta
-          content="Get effective acne treatment that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits"
+          content="Achieve clearer skin with a custom prescription acne formula, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -53,24 +51,15 @@ export default function Home() {
           content="https://instagram.com/tryskeen/"
           property="og:see_also"
         />
-        <meta
-          content="https://facebook.com/tryskeen/"
-          property="og:see_also"
-        />
-        <meta
-          content="https://twitter.com/tryskeen"
-          property="og:see_also"
-        />
+        <meta content="https://facebook.com/tryskeen/" property="og:see_also" />
+        <meta content="https://twitter.com/tryskeen" property="og:see_also" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tryskeen" />
         <meta name="twitter:creator" content="@tryskeen" />
-        <meta
-          name="twitter:title"
-          content="Acne treatment - Skeen"
-        />
+        <meta name="twitter:title" content="Acne Formula | Custom Acne Treatment | Skeen" />
         <meta
           name="twitter:description"
-          content="Get effective acne treatment that works. Prescribed online by licensed dermatology providers. No appointments, waiting rooms, or pharmacy visits"
+          content="Achieve clearer skin with a custom prescription acne formula, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
         />
         <meta
           name="twitter:image:src"
@@ -110,12 +99,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <Section1 />
+      <Section2b />
       <Section2 />
-      <Section3 />
+      <Section1 />
       <Section5 />
       <Section6 />
-      <Faq />
+      <Section4 />
       <Footer />
     </div>
   );

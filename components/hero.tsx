@@ -25,17 +25,16 @@ const Hero = () => {
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 flex flex-col md:flex-row md:justify-between">
       <div className=" md:max-w-[549px] pt-[42px] md:pb-0 md:pt-[160px]">
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
-          Convenient, expert skincare just for you
+          Personalized, expert skincare just for you
         </p>
         <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
-          Your skin is not a science experiment. Get personalized skincare
-          solutions from our skin consultants and take the guesswork out of your
-          skincare
+          Your skin is not a science experiment. Get a personalized skincare
+          formula for your skin and take the guesswork out of your skincare
         </p>
         <div className="mt-8 ">
           <Link href="/all-conditions">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-              Get started now
+            Get your formula now
             </SkeenButton>
           </Link>
         </div>

@@ -8,6 +8,7 @@ import favicon from "../public/assets/favicon.png";
 import metaCard from "../public/assets/skeen-metacard.png";
 import Script from "next/script";
 import Section1 from "@/components/section1";
+import Section2b from "../components/section2b";
 import Section3 from "@/components/section3";
 import Section4 from "@/components/section4";
 import Section5 from "@/components/section5";
@@ -18,7 +19,7 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          Skeen - Convenient, expert skincare in Nigeria. Shop skincare products
+          Skeen | Custom Prescription Skincare
         </title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
@@ -28,7 +29,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Your skin is not a science experiment. Get personalized skincare solutions from our skin consultants and take the guesswork out of your skin care"
+          content="Get a prescription skincare formula custom made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -37,11 +38,11 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
         <meta
-          content="Skeen - Convenient, expert skincare in Nigeria. Shop skincare products"
+          content="Skeen | Custom Prescription Skincare"
           property="og:title"
         />
         <meta
-          content="Your skin is not a science experiment. Get personalized skincare solutions from our skin consultants and take the guesswork out of your skin care"
+          content="Get a prescription skincare formula custom made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -62,11 +63,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryskeen" />
         <meta
           name="twitter:title"
-          content="Skeen - Convenient, expert skincare in Nigeria. Shop skincare products"
+          content="Skeen | Custom Prescription Skincare"
         />
         <meta
           name="twitter:description"
-          content="Your skin is not a science experiment. Get personalized skincare solutions from our skin consultants and take the guesswork out of your skin care"
+          content="Get a prescription skincare formula custom made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
         />
         <meta
           name="twitter:image:src"
@@ -108,6 +109,7 @@ export default function Home() {
       <Hero />
       <Section1 />
       <Section2 />
+      <Section2b />
       <Section3 />
       <Section4 />
       <Section5 />

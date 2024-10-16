@@ -95,7 +95,7 @@ const Navbar = () => {
                     href="/all-conditions"
                     className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
-                    What we treat
+                    Treatments
                   </Link>
                 </li>
                 <li className="mt-3 mx-[22.5px] ">
@@ -114,14 +114,14 @@ const Navbar = () => {
                     Community
                   </Link>
                 </li>
-                <li className="mt-3 mx-[22.5px] ">
+                {/* <li className="mt-3 mx-[22.5px] ">
                   <Link
                     href="/blog"
                     className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
                 <li className="ml-[35px]">
                   <Link href="/book-consultation">
                     <SkeenButton className="text-sm leading-[17px]">
@@ -143,7 +143,7 @@ const Navbar = () => {
                   href="/all-conditions"
                   className="block text-sm py-4"
                 >
-                  What we treat
+                  Treatments
                 </Link>
               </li>
               <li>

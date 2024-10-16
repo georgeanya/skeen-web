@@ -9,15 +9,16 @@ import metaCard from "../public/assets/skeen-metacard.png";
 import Script from "next/script";
 import Section1 from "@/components/hyperpigmentation-section1";
 import Section3 from "@/components/section3";
-import Section4 from "@/components/section4";
+import Section4 from "@/components/section4b";
 import Section5 from "@/components/section5";
 import Section6 from "@/components/section6";
+import Section2b from "@/components/section2b";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Hyperpigmentation treatment - Skeen</title>
+        <title>Pigmentation Formula | Custom Skin Pigmentation Treatment | Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
@@ -26,7 +27,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Get effective hyperpigmentation treatment that works. Prescribed online by skincare consultants. No appointments, waiting rooms, or pharmacy visits."
+          content="Get a custom prescription formula for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -35,11 +36,11 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://privhealth.co/" property="og:url" />
         <meta
-          content="Hyperpigmentation treatment - Skeen"
+          content="Pigmentation Formula | Custom Skin Pigmentation Treatment | Skeen"
           property="og:title"
         />
         <meta
-          content="Get effective hyperpigmentation treatment that works. Prescribed online by skincare consultants. No appointments, waiting rooms, or pharmacy visits."
+          content="Get a custom prescription formula for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -66,11 +67,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryskeen" />
         <meta
           name="twitter:title"
-          content="Hyperpigmentation treatment - Skeen"
+          content="Pigmentation Formula | Custom Skin Pigmentation Treatment | Skeen"
         />
         <meta
           name="twitter:description"
-          content="Get effective hyperpigmentation treatment that works. Prescribed online by skincare consultants. No appointments, waiting rooms, or pharmacy visits."
+          content="Get a custom prescription formula for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
         />
         <meta
           name="twitter:image:src"
@@ -110,12 +111,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <Section1 />
+      <Section2b />
       <Section2 />
-      <Section3 />
+      <Section1 />
       <Section5 />
       <Section6 />
-      <Faq />
+      <Section4 />
       <Footer />
     </div>
   );

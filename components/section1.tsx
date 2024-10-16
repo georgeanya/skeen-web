@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import minus from "../public/assets/minus.png";
+import formula from "../public/assets/formula.png";
 import purplearrow from "../public/assets/purplearrow.svg";
 import support from "../public/assets/support.svg";
 import Image from "next/image";
@@ -25,93 +25,39 @@ const SkeenButton = styled(Button)({
 
 const Section1 = () => {
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-[90px] bg-[#222E50] text-white grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 md:gap-[138px]">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-[90px] bg-[#222E50]">
       <div className="">
-        <p className="text-[28px] leading-[35px] md:text-[38px] md:leading-[48px] font-bold mr-3 md:mr-0  ">
-          What&apos;s your skin concern?
+        <p className="text-[28px] leading-[35px] md:text-[38px] md:leading-[48px] font-bold mr-3 md:mr-0 mb-[60px] max-w-[562px] text-white">
+          Find your custom prescription formula
         </p>
-        <div className="">
-          <hr className="h-[0.5px] border-t-[0.5px]  mt-[40px] md:mt-[60px] md:mb-6 mb-[17px]" />
+        <div className="flex justify-between md:flex-row flex-col gap-[33px]">
           <Link href="/acne">
-            <div className="flex justify-between items-center ">
-              <p className="text-lg leading-[22px] md:text-2xl md:leading-[30px] font-medium">
-                Acne
+            <div className="pt-2.5 px-[30px] pb-[32px] bg-[#FFFFFF] text-center md:w-[375px]">
+              <img src={formula.src} alt="" className="m-auto" />
+              <p className="text-[18px] leading-[23px] md:text-[22px] md:leading-[28px]">Acne formula</p>
+              <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
+                Tackle acne, blackheads, whiteheads, pimples, clogged pores
               </p>
-              <img
-                className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
-                src={purplearrow.src}
-                alt=""
-              />
             </div>
           </Link>
-          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
-          <Link href="/eczema">
-            <div className="flex justify-between items-center">
-              <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-                Eczema
-              </p>
-              <img
-                className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
-                src={purplearrow.src}
-                alt=""
-              />
-            </div>
-          </Link>
-          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
-          <Link href="/hyperpigmentation">
-            <div className="flex justify-between items-center">
-              <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-                Hyperpigmentation
-              </p>
-              <img
-                className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
-                src={purplearrow.src}
-                alt=""
-              />
-            </div>
-          </Link>
-          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
           <Link href="/skin-aging">
-            <div className="flex justify-between items-center">
-              <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-                Skin aging
+            <div className="pt-2.5 px-[30px] pb-[32px] bg-[#FFFFFF] text-center md:w-[375px]">
+              <img src={formula.src} alt="" className="m-auto" />
+              <p className="text-[18px] leading-[23px] md:text-[22px] md:leading-[28px]">Anti-aging formula</p>
+              <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
+                Tackle wrinkles, fine lines, firmness, skin texture, dullness
               </p>
-              <img
-                className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
-                src={purplearrow.src}
-                alt=""
-              />
             </div>
           </Link>
-          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
-          <Link href="/all-conditions">
-            <div className="flex justify-between items-center">
-              <p className="text-lg leading-6 md:text-2xl md:leading-[30px] font-medium">
-                See all conditions
+          <Link href="/pigmentation">
+            <div className="pt-2.5 px-[30px] pb-[32px] bg-[#FFFFFF] text-center md:w-[375px]">
+              <img src={formula.src} alt="" className="m-auto" />
+              <p className="text-[18px] leading-[23px] md:text-[22px] md:leading-[28px]">Pigmentation formula</p>
+              <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
+                Tackle dark spots, melasma, hormonal hyperpigmentation, acne
+                scars
               </p>
-              <img
-                className="ml-6 self-center w-[30px] md:w-[38px] cursor-pointer md:ml-10 mt-1"
-                src={purplearrow.src}
-                alt=""
-              />
             </div>
-          </Link>
-          <hr className="h-[0.5px] border-t-[0.5px] my-[17px] md:my-6" />
-        </div>
-      </div>
-      <div className="md:mt-48 mt-[35px] ">
-        <p className="md:text-[24px] md:leading-[30px] text-[18px] font-medium leading-[22px]">
-          Not sure about what condition you have?
-        </p>
-        <p className="md:text-[18px] md:leading-[24px] mt-4 font-normal text-[16px] leading-[22px]">
-          That&apos;s not a problem! Our skincare consultants will provide you
-          with an expert diagnosis and treatment
-        </p>
-        <div className="md:mt-10 mt-6  ">
-          <Link href="/all-conditions">
-            <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-              Start your consultation
-            </SkeenButton>
           </Link>
         </div>
       </div>

@@ -27,31 +27,35 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-       question: "What is hyperpigmentation?",
-       answer:
-         "Hyperpigmentation is a condition where patches of skin become darker than the surrounding areas due to excess melanin production. It can affect people of all skin types.",
-       open: true,
-     },
-     {
-       question: "What causes hyperpigmentation?",
-       answer:
-         "Hyperpigmentation can be caused by sun exposure, inflammation, hormonal changes (such as during pregnancy), certain medications, and skin injuries or inflammation (post-inflammatory hyperpigmentation).",
-       open: false,
-     },
-    
-     {
-       question: "How do I know if I have hyperpigmentation?",
-       answer:
-         "You can identify hyperpigmentation by noticing darker patches on your skin. These can be small spots or larger areas and can vary in color from light brown to dark brown or black, depending on your skin tone and the cause.",
-       open: false,
-     },
-     {
-       question: "How long does it take to clear hyperpigmentation?",
-       answer:
-         "The time to clear hyperpigmentation can range from a few months to years, depending on the cause, depth of discoloration, and treatment approach. Superficial hyperpigmentation may fade in 3-6 months with proper treatment, while deeper pigmentation can take a year or more to show significant improvement.",
-       open: false,
-     },
-     
+      question: "How do I use my Pigmentation Formula?",
+      answer:
+        "After cleansing your skin, apply one pump to your fingertips and gently massage onto your face - or as directed by your dermatology provider.",
+      open: true,
+    },
+    {
+      question: "When will I see results?",
+      answer:
+        "Many patients using the Pigmentation Formula see noticeable results within 6 to 12 weeks with consistent use. However, everyone's skin is unique, so your timeline may differ.",
+      open: false,
+    },
+
+    {
+      question: "How long will my Pigmentation formula last?",
+      answer: "One bottle contains approximately a 2-month supply.",
+      open: false,
+    },
+    {
+      question: "Can I use other products with my Pigmentation Formula?",
+      answer:
+        "Yes, you can, but since the Pigmentation Formula contains clinical-strength actives, we recommend simplifying your routine to gentle cleansing and moisturizing in conjunction with your formula. Your dermatology provider will provide more information about incorporating your formula into your skincare routine.",
+      open: false,
+    },
+    {
+      question: "What type of skin does the  Pigmentation Formula work for?",
+      answer:
+        "The  Pigmentation Formula can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
+      open: false,
+    }
    ]);
  
    const toggleFAQ = (index: number) => {
@@ -70,13 +74,13 @@ const Section1 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
-        <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[60px]">
-          What you should know about hyperpigmentation
+        <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0  mb-[36px]">
+        FAQs about the pigmentation formula
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="/book-consultation">
             <SkeenButton className="text-xs md:text-base font-medium">
-              Start your consultation
+            Get your formula now
             </SkeenButton>
           </Link>
         </div>
