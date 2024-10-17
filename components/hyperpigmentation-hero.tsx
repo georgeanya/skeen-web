@@ -23,7 +23,7 @@ const SkeenButton = styled(Button)({
 const Hero = () => {
   return (
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 flex flex-col md:flex-row md:justify-between">
-      <div className=" md:max-w-[549px] pt-[42px] md:pb-0 md:pt-[162px]">
+      <div className=" md:max-w-[549px] pt-[42px] md:pb-0 md:pt-[130px]">
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
           Get your custom made formula to treat pigmentation
         </p>

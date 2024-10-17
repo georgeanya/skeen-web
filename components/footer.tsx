@@ -50,7 +50,7 @@ const Footer = () => {
               <Link href="/acne">Acne</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="skin-aging">Anti aging</Link>
+              <Link href="skin-aging">Anti-aging</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
               <Link href="/pigmentation">Pigmentation</Link>
@@ -104,7 +104,7 @@ const Footer = () => {
               <Link href="tel:+2347040559724">+2347040559724</Link>
             </p>
             <p className="md:mb-[26px] md:text-[15px] text-sm leading-4 mb-[22px] text-[#C4CED4]">
-              <Link href="mailto:hi@skeen.co">hi@skeen.co</Link>
+              <Link href="mailto:hi@skeen.co">hi@tryskeen.com</Link>
             </p>
             <div className="flex">
               <Link href="https://facebook.com/tryskeen">

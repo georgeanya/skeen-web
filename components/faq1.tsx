@@ -11,11 +11,11 @@ const FAQ2 = ({ faq, index, toggleFAQ }: any) => {
         key={index}
       >
         <div className="self-center">
-          <p className="text-lg leading-[22px] md:text-[24px] md:leading-[30px] font-medium">
+          <p className="text-lg leading-[22px] md:text-[24px] md:text-2xl font-medium">
             {faq.question}
           </p>
           {faq.open ? (
-            <p className="text-base leading-[22px] md:text-[20px] md:leading-[30px] mt-2 md:mt-6">
+            <p className="text-base md:text-xl md:leading-[30px] mt-4 md:mt-6">
               {faq.answer}
             </p>
           ) : (

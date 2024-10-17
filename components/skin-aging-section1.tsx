@@ -85,7 +85,7 @@ const Section1 = () => {
           </Link>
         </div>
       </div>
-      <div className="mt-[60xp] md:mt-0 md:w-full md:ml-[100px] mb-[40px] md:mb-0">
+      <div className="mt-[60px] md:mt-0 md:w-full md:ml-[100px] mb-[40px] md:mb-0">
         {faqs.map((faq, index) => (
           <FAQ2 faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
         ))}

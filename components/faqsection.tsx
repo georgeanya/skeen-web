@@ -31,7 +31,7 @@ const FAQ = ({ faq, index, toggleFAQ }: any) => {
             {faq.question}
           </p>
           {faq.open ? (
-            <p className="text-base md:text-xl md:leading-[30px] text-[#6C7884] mt-2 md:mt-6">
+            <p className="text-base md:text-xl md:leading-[30px] text-[#6C7884] mt-4 md:mt-6">
               {faq.answer}
             </p>
           ) : (

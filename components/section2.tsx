@@ -62,8 +62,8 @@ const Section2 = () => {
               </p>
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2 md:mt-4">
-              Receive the right medication/product for your skin directly at
-              home
+              Receive your personalized formula for your skin tailored to help
+              you achieve your skin goals
             </p>
           </div>
         </div>

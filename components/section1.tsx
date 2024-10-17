@@ -34,7 +34,7 @@ const Section1 = () => {
           <Link href="/acne">
             <div className="pt-2.5 px-[30px] pb-[32px] bg-[#FFFFFF] text-center md:w-[375px]">
               <img src={formula.src} alt="" className="m-auto" />
-              <p className="text-[18px] leading-[23px] md:text-[22px] md:leading-[28px]">Acne formula</p>
+              <p className="text-[18px] leading-[23px] font-medium md:text-[22px] md:leading-[28px]">Acne formula</p>
               <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
                 Tackle acne, blackheads, whiteheads, pimples, clogged pores
               </p>
@@ -43,7 +43,7 @@ const Section1 = () => {
           <Link href="/skin-aging">
             <div className="pt-2.5 px-[30px] pb-[32px] bg-[#FFFFFF] text-center md:w-[375px]">
               <img src={formula.src} alt="" className="m-auto" />
-              <p className="text-[18px] leading-[23px] md:text-[22px] md:leading-[28px]">Anti-aging formula</p>
+              <p className="text-[18px] leading-[23px] font-medium md:text-[22px] md:leading-[28px]">Anti-aging formula</p>
               <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
                 Tackle wrinkles, fine lines, firmness, skin texture, dullness
               </p>
@@ -52,7 +52,7 @@ const Section1 = () => {
           <Link href="/pigmentation">
             <div className="pt-2.5 px-[30px] pb-[32px] bg-[#FFFFFF] text-center md:w-[375px]">
               <img src={formula.src} alt="" className="m-auto" />
-              <p className="text-[18px] leading-[23px] md:text-[22px] md:leading-[28px]">Pigmentation formula</p>
+              <p className="text-[18px] leading-[23px] font-medium md:text-[22px] md:leading-[28px]">Pigmentation formula</p>
               <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
                 Tackle dark spots, melasma, hormonal hyperpigmentation, acne
                 scars
