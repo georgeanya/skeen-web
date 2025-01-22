@@ -25,7 +25,7 @@ const SkeenButton = styled(Button)({
 
 const Section1 = () => {
   return (
-    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-28 pb-[90px] bg-[#222E50]">
+    <div className="px-5 md:px-[125px] md:pt-[120px] pt-20 md:pb-[130px] pb-[90px] bg-[#222E50]">
       <div className="">
         <p className="text-[28px] leading-[35px] md:text-[38px] md:leading-[48px] font-bold mr-3 md:mr-0 mb-[60px] max-w-[562px] text-white">
           Find your custom prescription formula
