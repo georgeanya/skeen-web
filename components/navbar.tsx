@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="px-5 md:px-[125px] py-5">
+      <div className="px-5 md:px-[125px] py-5 md:py-[25px]">
         <nav>
           <div className="container flex flex-wrap justify-between items-center mx-auto">
             <Link href="/">
