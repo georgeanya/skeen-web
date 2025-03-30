@@ -28,8 +28,7 @@ const Hero = () => {
           Personalized, expert skincare just for you
         </p>
         <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
-          Your skin is not a science experiment. Get a personalized skincare
-          formula for your skin and take the guesswork out of your skincare
+          We are your personal skincare lab. Get a personalized formula tailored to your skin’s unique needs, designed by dermatology experts. Delivered to your door.
         </p>
         <div className="mt-8 ">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
