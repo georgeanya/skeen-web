@@ -36,7 +36,7 @@ const Section1 = () => {
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-          I struggled with stubborn acne scars, but Skeen's prescription-strength formula helped fade them within months. I love the fact that my cream is tailored to my skin’s needs.
+          I struggled with stubborn acne scars, but Skeen&apos;s prescription-strength formula helped fade them within months. I love the fact that my cream is tailored to my skin&apos;s needs.
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
