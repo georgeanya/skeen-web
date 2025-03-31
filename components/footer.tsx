@@ -32,7 +32,7 @@ const Footer = () => {
           Complete an online visit and get your custom formula prepared by a
           licensed dermatology provider
         </p>
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+        <Link href="/all-conditions">
           <SkeenButton className="self-center text-sm md:text-base font-medium">
             Get my formula now
           </SkeenButton>

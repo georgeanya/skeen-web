@@ -29,7 +29,7 @@ const Start = () => {
         <meta content="598084287257839" property="fb:profile_id" />
         <meta content="en_US" property="og:locale" />
         <meta content="website" property="og:type" />
-        <meta content="https://privhealth.co/start" property="og:url" />
+        <meta content="https://tryskeen.com/start" property="og:url" />
         <meta content="Get started - Skeen Health" property="og:title" />
         <meta
           content="Become a member and get unlimited consultations, pharmacy discounts, and more for a year."
@@ -64,7 +64,7 @@ const Start = () => {
         />
         <meta
           name="twitter:image:src"
-          content="https://privhealth.co/_next/static/media/skeen-metacard.bfa5bd2e.png"
+          content="https://tryskeen.com/_next/static/media/skeen-metacard.bfa5bd2e.png"
         />
         <meta name="twitter:image:width" content="785" />
         <meta name="twitter:image:height" content="394" />
@@ -73,11 +73,11 @@ const Start = () => {
           content="An image of the Skeen health logo"
         />
         <link rel="me" href="https://twitter.com/tryskeen" />
-        <link href="https://privhealth.co/start" rel="canonical" />
-        <link href="https://privhealth.co/" rel="home" />
+        <link href="https://tryskeen.com/start" rel="canonical" />
+        <link href="https://tryskeen.com/" rel="home" />
         <link href="/humans.txt" rel="author" type="text/plain" />
         <link
-          href="https://privhealth.co/"
+          href="https://tryskeen.com/"
           hrefLang="x-default"
           rel="alternate"
         />
