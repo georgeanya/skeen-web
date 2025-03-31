@@ -80,7 +80,7 @@ const Section1 = () => {
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-xs md:text-base font-medium">
-              Get your formula now
+              Get my formula now
             </SkeenButton>
           </Link>
         </div>

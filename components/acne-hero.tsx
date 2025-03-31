@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../public/assets/hero.png";
+import hero from "../public/assets/formular.png";
 import { useState, useCallback, useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
@@ -25,16 +25,24 @@ const Hero = () => {
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 flex flex-col md:flex-row md:justify-between">
       <div className=" md:max-w-[549px] pt-[42px] md:pb-0 md:pt-[130px]">
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
-          Treat acne with a custom formula made just for you
+          Acne Formula
+        </p>
+        <p className="mt-5 md:mt-5 text-base font-medium md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
+        ₦35,000 • 30 g
         </p>
         <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
-          Your skin is unique, your skincare formula should be too. Analyze your
-          skin and get a personalized acne formula made just for you
+          Fight breakouts with a formula made for your skin. Clinically proven
+          ingredients work to unclog pores, reduce blemishes, and tackle
+          blackheads, whiteheads, and pimples, and reveal smooth, clear skin.
+          <br />
+          <br />
+          Your free consultation with our dermatology provider would help us
+          personalize your formula for you.
         </p>
         <div className="mt-8 ">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+          <Link href="https://paystack.com/buy/skeen-acne-formula">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-              Get your formula now
+              Get my formula now
             </SkeenButton>
           </Link>
         </div>

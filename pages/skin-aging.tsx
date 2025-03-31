@@ -34,7 +34,7 @@ export default function Home() {
         <meta content="107593817569600" property="fb:profile_id" />
         <meta content="en_US" property="og:locale" />
         <meta content="website" property="og:type" />
-        <meta content="https://privhealth.co/" property="og:url" />
+        <meta content="https://tryskeen.com/" property="og:url" />
         <meta content="Anti-aging Formula | Custom Skin Aging Treatment | Skeen" property="og:title" />
         <meta
           content="Turn back the clock with a custom prescription anti-aging formula, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow."
@@ -68,7 +68,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image:src"
-          content="https://privhealth.co/_next/static/media/skeen-metacard.bfa5bd2e.png"
+          content="https://tryskeen.com/_next/static/media/skeen-metacard.bfa5bd2e.png"
         />
         <meta name="twitter:image:width" content="738" />
         <meta name="twitter:image:height" content="394" />
@@ -77,11 +77,11 @@ export default function Home() {
           content="An image of the Skeen health logo"
         />
         <link rel="me" href="https://twitter.com/tryskeen" />
-        <link href="https://privhealth.co/" rel="canonical" />
-        <link href="https://privhealth.co/" rel="home" />
+        <link href="https://tryskeen.com/" rel="canonical" />
+        <link href="https://tryskeen.com/" rel="home" />
         <link href="/humans.txt" rel="author" type="text/plain" />
         <link
-          href="https://privhealth.co/"
+          href="https://tryskeen.com/"
           hrefLang="x-default"
           rel="alternate"
         />
