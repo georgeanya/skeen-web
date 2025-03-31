@@ -80,14 +80,13 @@ const Section2 = () => {
               </p>
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2 md:mt-4">
-              Easily check-in with your dermatology provider to track your
-              skin&apos;s progress and adjust your treatment plan
+              Easily check-in with your dermatology provider to track your skin’s progress and adjust your formula over time
             </p>
           </div>
         </div>
       </div>
       <div className="md:mt-[60px] mt-10">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+        <Link href="/all-conditions">
           <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
             Get my formula now
           </SkeenButton>
