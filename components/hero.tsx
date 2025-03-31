@@ -31,7 +31,7 @@ const Hero = () => {
           We are your personal skincare lab. Get a personalized formula tailored to your skin’s unique needs, designed by dermatology experts. Delivered to your door.
         </p>
         <div className="mt-8 ">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+          <Link href="/all-conditions">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Get my formula now
             </SkeenButton>
