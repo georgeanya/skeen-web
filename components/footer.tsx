@@ -29,12 +29,12 @@ const Footer = () => {
           Ready for your clearest skin?
         </p>
         <p className="text-lg leading-6 md:text-[22px] md:leading-[30px] font-normal md:mb-[48px] mb-8 max-w-2xl flex justify-center m-auto">
-          Complete an online visit and get your custom formula prepared by a
+          Complete an online visit and get your custom cream prepared by a
           licensed dermatology provider
         </p>
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
           <SkeenButton className="self-center text-sm md:text-base font-medium">
-            Get my formula now
+            Get my cream now
           </SkeenButton>
         </Link>
       </div>

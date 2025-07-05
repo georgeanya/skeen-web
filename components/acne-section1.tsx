@@ -75,12 +75,12 @@ const Section1 = () => {
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold mr-3 md:mr-0">
-          FAQs about the acne formula
+          FAQs about the acne cream
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-xs md:text-base font-medium">
-              Get my formula now
+              Get my cream now
             </SkeenButton>
           </Link>
         </div>

@@ -33,7 +33,7 @@ const Section2b = () => {
           Made with science-backed ingredients
         </p>
         <p className="text-[16px] leading-[22px] md:text-[20px] md:leading-[30px] mr-3 md:mr-0 mb-[60px] max-w-[508px] ">
-          Your custom formula combines prescription ingredients -- in the proper
+          Your custom cream combines prescription ingredients - in the proper
           amounts and strength for your skin
         </p>
         <div className="mt-8 md:mt-14 overflow-x-auto hide-scrollbar ">

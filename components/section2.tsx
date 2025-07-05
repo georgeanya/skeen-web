@@ -28,7 +28,7 @@ const Section2 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-[120px] md:pb-[130px] py-[90px]">
       <p className=" text-3xl md:text-start md:text-[38px] leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
-        How Skeen works
+        Get your best skin in 3 steps
       </p>
       <div className="max-w-xl min-w-full mt-10 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
         <div>
@@ -39,13 +39,12 @@ const Section2 = () => {
             </div>
             <div className="flex justify-between">
               <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
-                Tell us about you
+                Tell us about your skin
               </p>
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2.5 md:mt-4">
               Answer a few questions about your skin concern and medical history
-              and submit photos to help us create the right formula for your
-              skin
+              and submit photos to help us create the right cream for your skin
             </p>
           </div>
         </div>
@@ -58,12 +57,12 @@ const Section2 = () => {
             </div>
             <div className="flex justify-between">
               <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
-                Get your personalized treatment plan
+                Get your skincare formula
               </p>
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2 md:mt-4">
-              Receive your personalized formula for your skin tailored to help
-              you achieve your skin goals
+              Receive your personalized cream for your skin tailored to help you
+              achieve your skin goals
             </p>
           </div>
         </div>
@@ -81,7 +80,7 @@ const Section2 = () => {
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2 md:mt-4">
               Easily check-in with your dermatology provider to track your
-              skin&apos;s progress and adjust your treatment plan
+              skin&apos;s progress and adjust your cream over time
             </p>
           </div>
         </div>
@@ -89,7 +88,7 @@ const Section2 = () => {
       <div className="md:mt-[60px] mt-10">
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
           <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-            Get my formula now
+            Get my cream now
           </SkeenButton>
         </Link>
       </div>

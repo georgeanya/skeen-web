@@ -25,10 +25,10 @@ const Hero = () => {
     <div className="px-5 md:px-[125px] pb-[90px] md:pb-36 flex flex-col md:flex-row md:justify-between">
       <div className=" md:max-w-[549px] pt-[42px] md:pb-0 md:pt-[130px]">
         <p className="text-[34px] md:text-start md:text-5xl md:leading-[60px] font-bold text-[#3E7EEE] leading-[43px]">
-          Acne Formula
+        Acne Cream 
         </p>
         <p className="mt-5 md:mt-5 text-base font-medium md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
-        ₦35,000 • 30 g
+        ₦35,000 • 60-day supply
         </p>
         <p className="mt-5 md:mt-5 text-base font-normal md:text-start md:text-[20px] leading-[22px] md:leading-7 text-[#333D47]">
           Fight breakouts with a formula made for your skin. Clinically proven
@@ -42,7 +42,7 @@ const Hero = () => {
         <div className="mt-8 ">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
-              Get my formula now
+              Get my cream now
             </SkeenButton>
           </Link>
         </div>
