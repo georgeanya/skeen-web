@@ -86,7 +86,7 @@ const Section2 = () => {
         </div>
       </div>
       <div className="md:mt-[60px] mt-10">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+        <Link href="/all-conditions">
           <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
             Get my cream now
           </SkeenButton>

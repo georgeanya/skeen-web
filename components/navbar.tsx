@@ -100,7 +100,7 @@ const Navbar = () => {
                 </li>
                 <li className="mt-3 mx-[22.5px] ">
                   <Link
-                    href="https://privhealth.bumpa.shop"
+                    href="http://paystack.shop/skeen"
                     className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     Shop
@@ -123,7 +123,7 @@ const Navbar = () => {
                   </Link>
                 </li> */}
                 <li className="ml-[35px]">
-                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+                  <Link href="/all-conditions">
                     <SkeenButton className="text-sm leading-[17px]">
                       Get started now
                     </SkeenButton>
@@ -144,7 +144,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="block text-sm py-4">
+                <Link href="http://paystack.shop/skeen" className="block text-sm py-4">
                   Shop
                 </Link>
               </li>
@@ -162,7 +162,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="mt-3">
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+                <Link href="/all-conditions">
                   <SkeenButton className="text-sm ">
                     Get started now
                   </SkeenButton>

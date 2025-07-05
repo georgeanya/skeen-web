@@ -40,7 +40,7 @@ const Hero = () => {
           personalize your formula for you.
         </p>
         <div className="mt-8 ">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+          <Link href="https://paystack.com/buy/skeen-acne-formula">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Get my cream now
             </SkeenButton>

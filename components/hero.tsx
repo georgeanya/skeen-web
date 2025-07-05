@@ -33,7 +33,7 @@ const Hero = () => {
           Delivered to your door.
         </p>
         <div className="mt-8 ">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+          <Link href="/all-conditions">
             <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
               Get my cream now
             </SkeenButton>

@@ -14,9 +14,7 @@ const Section1 = () => {
       <div className="grid md:grid-cols-3 grid-cols-1 md:grid-rows-1 gap-5 md:gap-6 mt-10 md:mt-12">
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-            I was amazed at how quickly I got a diagnosis and treatment plan for
-            my acne - all from the comfort of my own home! The skincare
-            consultant was so friendly and helpful.
+          I was skeptical at first, but Skeen really works! My acne has significantly improved. The personalized formula made a huge difference compared to over-the-counter treatments.
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
@@ -27,9 +25,7 @@ const Section1 = () => {
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-            I was experiencing a skin rash and didn&apos;t know what it was.
-            Skeen connected me with a consultant who diagnosed it as eczema and
-            provided a treatment plan.
+          After years of trying different skincare products, Skeen finally gave me real results. My redness and fine lines have reduced, and my skin looks healthier. I highly recommend!
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
@@ -40,9 +36,7 @@ const Section1 = () => {
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-            I live in Ogoja and don&apos;t have access to a dermatologist
-            nearby. Skeen was a lifesaver - I got the care I needed without
-            having to travel hours!
+          I struggled with stubborn acne scars, but Skeen&apos;s prescription-strength formula helped fade them within months. I love the fact that my cream is tailored to my skin&apos;s needs.
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
