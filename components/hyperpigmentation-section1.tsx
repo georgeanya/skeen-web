@@ -27,7 +27,7 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-      question: "How do I use my Pigmentation Formula?",
+      question: "How do I use my Pigmentation Cream?",
       answer:
         "After cleansing your skin, apply one pump to your fingertips and gently massage onto your face - or as directed by your dermatology provider.",
       open: true,
@@ -35,25 +35,25 @@ const Section1 = () => {
     {
       question: "When will I see results?",
       answer:
-        "Many patients using the Pigmentation Formula see noticeable results within 6 to 12 weeks with consistent use. However, everyone's skin is unique, so your timeline may differ.",
+        "Many patients using the Pigmentation Cream see noticeable results within 6 to 12 weeks with consistent use. However, everyone's skin is unique, so your timeline may differ.",
       open: false,
     },
 
     {
-      question: "How long will my Pigmentation formula last?",
+      question: "How long will my Pigmentation Cream last?",
       answer: "One bottle contains approximately a 2-month supply.",
       open: false,
     },
     {
-      question: "Can I use other products with my Pigmentation Formula?",
+      question: "Can I use other products with my Pigmentation Cream?",
       answer:
-        "Yes, you can, but since the Pigmentation Formula contains clinical-strength actives, we recommend simplifying your routine to gentle cleansing and moisturizing in conjunction with your formula. Your dermatology provider will provide more information about incorporating your formula into your skincare routine.",
+        "Yes, you can, but since the Pigmentation Cream contains clinical-strength actives, we recommend simplifying your routine to gentle cleansing and moisturizing in conjunction with your cream. Your dermatology provider will provide more information about incorporating your cream into your skincare routine.",
       open: false,
     },
     {
-      question: "What type of skin does the  Pigmentation Formula work for?",
+      question: "What type of skin does the Pigmentation Cream work for?",
       answer:
-        "The  Pigmentation Formula can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
+        "The Pigmentation Cream can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
       open: false,
     },
   ]);
