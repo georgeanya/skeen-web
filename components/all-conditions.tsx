@@ -3,6 +3,9 @@ import Navbar from "./navbar1";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import whitearrow from "../public/assets/whitearow.svg";
+import acne from "../public/assets/acne.png";
+import skina from "../public/assets/skina.png";
+import pigm from "../public/assets/pigm.png";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -28,34 +31,48 @@ const StartSuccess = () => {
         Get the right treatment for your skin
       </p>
       <p className="text-[16px] leading-[22px] md:text-[18px] md:leading-[22px] text-center mt-3">
-        Start by choosing your skin condition
+        Start by choosing your skin goal
       </p>
       <Link href="/acne">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[28px]  items-center">
-          <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Acne
-          </p>
-          <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
+        <div className="flex mb-[12px] md:mb-[14px] mt-[28px] md:mt-[32px] ">
+          <Image src={acne} alt="acne" />
+          <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-r-[16px] w-full items-center">
+            <p className="text-[16px] md:text-[18px] mb-[5px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
+              Acne
+            </p>
+            <p className="text-[13px] md:text-[14px] leading-[18px] text-[#333D47]">
+              Tackle blackheads, whiteheads, pimples, clogged pores
+            </p>
+          </div>
         </div>
       </Link>
       <Link href="/skin-aging">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
-          <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Anti-aging
-          </p>
-          <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
+        <div className="flex  mb-[12px] md:mb-[14px] mt-[12px]">
+          <Image src={skina} alt="skin aging" />
+          <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-r-[16px] w-full items-center">
+            <p className="text-[16px] md:text-[18px] mb-[5px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
+              Skin aging
+            </p>
+            <p className="text-[13px] md:text-[14px] leading-[18px] text-[#333D47]">
+              Tackle wrinkles, fine lines, firmness, skin texture, dullness
+            </p>
+          </div>
         </div>
       </Link>
       <Link href="/pigmentation">
-        <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
-          <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
-            Pigmentation
-          </p>
-          <Image src={whitearrow} alt="" className="w-[30px] md:w-[38px]" />
+        <div className="flex  mb-[12px] md:mb-[40px] mt-[12px]">
+          <Image src={pigm} alt="pigmentation" />
+          <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-r-[16px] w-full items-center">
+            <p className="text-[16px] md:text-[18px] mb-[5px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
+              Pigmentation
+            </p>
+            <p className="text-[13px] md:text-[14px] leading-[18px] text-[#333D47]">
+              Tackle dark spots, melasma, acne scars, hormonal pigmentation
+            </p>
+          </div>
         </div>
       </Link>
-      
-     
+
       <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
         <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-[16px] mb-[12px] md:mb-5 flex justify-between mt-[12px] items-center">
           <p className="text-[16px] md:text-[20px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">

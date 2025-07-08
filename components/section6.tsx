@@ -14,7 +14,9 @@ const Section1 = () => {
       <div className="grid md:grid-cols-3 grid-cols-1 md:grid-rows-1 gap-5 md:gap-6 mt-10 md:mt-12">
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-          I was skeptical at first, but Skeen really works! My acne has significantly improved. The personalized formula made a huge difference compared to over-the-counter treatments.
+            After trying countless over-the-counter products, Skeen&apos;s custom
+            cream finally addressed my stubborn blackheads and fine lines. My
+            skin looks younger and it feels amazing!
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
@@ -25,7 +27,9 @@ const Section1 = () => {
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-          After years of trying different skincare products, Skeen finally gave me real results. My redness and fine lines have reduced, and my skin looks healthier. I highly recommend!
+            Skeen made dermatology accessible and affordable for me. The custom
+            cream targeted my exact skin concerns better than any
+            over-the-counter products ever did.
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">
@@ -36,7 +40,9 @@ const Section1 = () => {
         </div>
         <div className="md:px-10 md:py-12 px-5 py-8 bg-white">
           <p className="text-[18px] leading-[26px] md:text-[22px] md:leading-[34px] text-[#333D47]">
-          I struggled with stubborn acne scars, but Skeen&apos;s prescription-strength formula helped fade them within months. I love the fact that my cream is tailored to my skin&apos;s needs.
+            I struggled with hormonal acne for years before finding Skeen. My
+            personalized cream cleared my skin in three months. I finally feel
+            confident going makeup-free again!
           </p>
           <div className="flex justify-between items-center mt-6">
             <p className="md:text-[18px] md:leading-[30px] text-[16px] leading-[20px] text-[#6C7884] ">

@@ -81,7 +81,7 @@ const Section1 = () => {
                   className="w-[28px] md:w-[30px]"
                 />
               </div>
-              <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] mt-4">
+              <p className="text-[14px] leading-[19px] md:text-[16px] md:leading-[23px] md:mt-4 mt-2.5">
                 Tackle dark spots, melasma, hormonal hyperpigmentation, acne
                 scars
               </p>
