@@ -27,7 +27,7 @@ const SkeenButton = styled(Button)({
 const Section2 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-[120px] md:pb-[130px] py-[90px]">
-      <p className=" text-3xl md:text-start md:text-[38px] leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
+      <p className=" text-3xl md:text-start md:text-[38px] leading-[35px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
         Get your best skin in 3 steps
       </p>
       <div className="max-w-xl min-w-full mt-10 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
@@ -38,7 +38,7 @@ const Section2 = () => {
               <Image src={rectangle1} alt="" />
             </div>
             <div className="flex justify-between">
-              <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
+              <p className="text-[20px] leading-[23px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
                 Tell us about your skin
               </p>
             </div>
