@@ -27,7 +27,7 @@ const SkeenButton = styled(Button)({
 const Section1 = () => {
   const [faqs, setFaqs] = useState([
     {
-      question: "How do I use my Acne Formula?",
+      question: "How do I use my Acne Cream?",
       answer:
         "After cleansing your skin, apply one pump to your fingertips and gently massage onto your face - or as directed by your dermatology provider.",
       open: true,
@@ -35,25 +35,25 @@ const Section1 = () => {
     {
       question: "When will I see results?",
       answer:
-        "Many patients using the Acne Formula see noticeable results within 6 to 12 weeks with consistent use. However, everyone's skin is unique, so your timeline may differ.",
+        "Many patients using the Acne Cream see noticeable results within 6 to 12 weeks with consistent use. However, everyone's skin is unique, so your timeline may differ.",
       open: false,
     },
 
     {
-      question: "How long will my Acne formula last?",
+      question: "How long will my Acne Cream last?",
       answer: "One bottle contains approximately a 2-month supply.",
       open: false,
     },
     {
-      question: "Can I use other products with my Acne Formula?",
+      question: "Can I use other products with my Acne Cream?",
       answer:
-        "Yes, you can, but since the Acne Formula contains clinical-strength actives, we recommend simplifying your routine to gentle cleansing and moisturizing in conjunction with your formula. Your dermatology provider will provide more information about incorporating your formula into your skincare routine.",
+        "Yes, you can, but since the Acne Cream contains clinical-strength actives, we recommend simplifying your routine to gentle cleansing and moisturizing in conjunction with your cream. Your dermatology provider will provide more information about incorporating your cream into your skincare routine.",
       open: false,
     },
     {
-      question: "What type of skin does the Acne Formula work for?",
+      question: "What type of skin does the Acne Cream work for?",
       answer:
-        "The Acne Formula can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
+        "The Acne Cream can be used by all skin types (dry, combination, and oily). Your dermatology provider will use the information you provide to formulate one that works for you.",
       open: false,
     },
   ]);

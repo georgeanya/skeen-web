@@ -15,7 +15,7 @@ const Section5 = () => {
           on their journey to healthier skin.”
         </p>
         <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] mt-6 md:mt-7 mb-1. font-medium">
-          Rahmah Olubiyi
+          Dr. Olusina Ajidahun
         </p>
         <p className="md:text-[20px] md:leading-[30px] text-[16px] leading-[22px] text-[#6C7884]">
           Co-founder
