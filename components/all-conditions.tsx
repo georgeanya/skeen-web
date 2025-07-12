@@ -35,7 +35,7 @@ const StartSuccess = () => {
       </p>
       <Link href="/acne">
         <div className="flex mb-[12px] md:mb-[14px] mt-[28px] md:mt-[32px] ">
-          <Image src={acne} alt="acne" />
+          <Image src={acne} alt="acne" className="w-[100px]" />
           <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-r-[16px] w-full items-center">
             <p className="text-[16px] md:text-[18px] mb-[5px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
               Acne
@@ -48,7 +48,7 @@ const StartSuccess = () => {
       </Link>
       <Link href="/skin-aging">
         <div className="flex  mb-[12px] md:mb-[14px] mt-[12px]">
-          <Image src={skina} alt="skin aging" />
+          <Image src={skina} alt="skin aging" className="w-[100px]" />
           <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-r-[16px] w-full items-center">
             <p className="text-[16px] md:text-[18px] mb-[5px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
               Skin aging
@@ -61,7 +61,7 @@ const StartSuccess = () => {
       </Link>
       <Link href="/pigmentation">
         <div className="flex  mb-[12px] md:mb-[40px] mt-[12px]">
-          <Image src={pigm} alt="pigmentation" />
+          <Image src={pigm} alt="pigmentation" className="w-[100px]" />
           <div className="md:px-5 px-[16px] py-[11px] md:py-[18px] bg-[#F5F5F5] rounded-r-[16px] w-full items-center">
             <p className="text-[16px] md:text-[18px] mb-[5px] leading-[20px] md:leading-[25.24px] font-medium text-[#333D47]">
               Pigmentation
