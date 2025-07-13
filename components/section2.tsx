@@ -21,13 +21,14 @@ const SkeenButton = styled(Button)({
   textTransform: "none",
   ["@media (max-width:780px)"]: {
     padding: "16px 32px",
+    
   },
 });
 
 const Section2 = () => {
   return (
     <div className="px-5 md:px-[125px] md:pt-[120px] md:pb-[130px] py-[90px]">
-      <p className=" text-3xl md:text-start md:text-[38px] leading-[35px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
+      <p className=" text-[28px] md:text-start md:text-[38px] leading-[35px] md:leading-[48px] md:max-w-xl font-bold text-[#3E7EEE]">
         Get your best skin in 3 steps
       </p>
       <div className="max-w-xl min-w-full mt-10 md:mt-[60px] md:grid grid-flow-col grid-cols-3 gap-20">
