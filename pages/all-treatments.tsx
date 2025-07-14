@@ -9,7 +9,7 @@ const Start = () => {
   return (
     <div>
       <Head>
-        <title>Get started - Skeen Health</title>
+        <title>All Treatments - Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
@@ -18,21 +18,21 @@ const Start = () => {
         />
         <meta
           name="keywords"
-          content="erectile dysfunction, premature ejaculation, hair loss, low testosterone, STIs"
+          content="skincare, acne, pigmentation, aging, rosacea, dermatology, dermatologist"
         />
         <meta
           name="description"
-          content="Become a member and get unlimited consultations, pharmacy discounts, and more for a year."
+          content="Get a custom prescription cream made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
         <meta content="598084287257839" property="fb:profile_id" />
         <meta content="en_US" property="og:locale" />
         <meta content="website" property="og:type" />
-        <meta content="https://tryskeen.com/start" property="og:url" />
-        <meta content="Get started - Skeen Health" property="og:title" />
+        <meta content="https://tryskeen.com/all-treatments" property="og:url" />
+        <meta content="All Treatments - Skeen" property="og:title" />
         <meta
-          content="Become a member and get unlimited consultations, pharmacy discounts, and more for a year."
+          content="Get a custom prescription cream made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -57,10 +57,10 @@ const Start = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tryskeen" />
         <meta name="twitter:creator" content="@tryskeen" />
-        <meta name="twitter:title" content="Get started - Skeen Health" />
+        <meta name="twitter:title" content="All Treatments - Skeen" />
         <meta
           name="twitter:description"
-          content="Become a member and get unlimited consultations, pharmacy discounts, and more for a year."
+          content="Get a custom prescription cream made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
         />
         <meta
           name="twitter:image:src"
@@ -73,7 +73,7 @@ const Start = () => {
           content="An image of the Skeen health logo"
         />
         <link rel="me" href="https://twitter.com/tryskeen" />
-        <link href="https://tryskeen.com/start" rel="canonical" />
+        <link href="https://tryskeen.com/all-treatments" rel="canonical" />
         <link href="https://tryskeen.com/" rel="home" />
         <link href="/humans.txt" rel="author" type="text/plain" />
         <link

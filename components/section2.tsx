@@ -87,7 +87,7 @@ const Section2 = () => {
         </div>
       </div>
       <div className="md:mt-[60px] mt-10">
-        <Link href="/all-conditions">
+        <Link href="/all-treatments">
           <SkeenButton className="text-sm md:text-base md:leading-5 font-medium">
             Get my cream now
           </SkeenButton>

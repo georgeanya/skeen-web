@@ -32,7 +32,7 @@ const Footer = () => {
           Complete an online visit and get your custom cream prepared by a
           licensed dermatology provider
         </p>
-        <Link href="/all-conditions">
+        <Link href="/all-treatments">
           <SkeenButton className="self-center text-sm md:text-base font-medium">
             Get my cream now
           </SkeenButton>
