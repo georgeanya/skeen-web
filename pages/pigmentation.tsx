@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Pigmentation Formula | Custom Skin Pigmentation Treatment | Skeen</title>
+        <title>Pigmentation Cream | Custom Skin Pigmentation Treatment | Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Get a custom prescription formula for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
+          content="Get a custom prescription cream for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -36,11 +36,11 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="https://tryskeen.com/" property="og:url" />
         <meta
-          content="Pigmentation Formula | Custom Skin Pigmentation Treatment | Skeen"
+          content="Pigmentation Cream | Custom Skin Pigmentation Treatment | Skeen"
           property="og:title"
         />
         <meta
-          content="Get a custom prescription formula for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
+          content="Get a custom prescription cream for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -67,11 +67,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryskeen" />
         <meta
           name="twitter:title"
-          content="Pigmentation Formula | Custom Skin Pigmentation Treatment | Skeen"
+          content="Pigmentation Cream | Custom Skin Pigmentation Treatment | Skeen"
         />
         <meta
           name="twitter:description"
-          content="Get a custom prescription formula for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
+          content="Get a custom prescription cream for pigmentation, tailored to your skin's unique needs. Fade dark spots and achieve a brighter, even complexion"
         />
         <meta
           name="twitter:image:src"

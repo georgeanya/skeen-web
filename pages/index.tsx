@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Get a prescription skincare formula custom made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
+          content="Get a custom prescription cream made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -42,7 +42,7 @@ export default function Home() {
           property="og:title"
         />
         <meta
-          content="Get a prescription skincare formula custom made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
+          content="Get a custom prescription cream made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -67,7 +67,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Get a prescription skincare formula custom made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
+          content="Get a custom prescription cream made to treat your skin concerns, prescribed and formulated by expert dermatology providers, and delivered to your door."
         />
         <meta
           name="twitter:image:src"

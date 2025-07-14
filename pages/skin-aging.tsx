@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Anti-aging Formula | Custom Skin Aging Treatment | Skeen</title>
+        <title>Anti-aging Cream | Custom Skin Aging Treatment | Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Turn back the clock with a custom prescription anti-aging formula, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow."
+          content="Turn back the clock with a custom prescription anti-aging cream, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -35,9 +35,9 @@ export default function Home() {
         <meta content="en_US" property="og:locale" />
         <meta content="website" property="og:type" />
         <meta content="https://tryskeen.com/" property="og:url" />
-        <meta content="Anti-aging Formula | Custom Skin Aging Treatment | Skeen" property="og:title" />
+        <meta content="Anti-aging Cream | Custom Skin Aging Treatment | Skeen" property="og:title" />
         <meta
-          content="Turn back the clock with a custom prescription anti-aging formula, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow."
+          content="Turn back the clock with a custom prescription anti-aging cream, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -58,12 +58,12 @@ export default function Home() {
         <meta name="twitter:creator" content="@tryskeen" />
         <meta
           name="twitter:title"
-          content="Anti-aging Formula | Custom Skin Aging Treatment | Skeen
+          content="Anti-aging Cream | Custom Skin Aging Treatment | Skeen
  "
         />
         <meta
           name="twitter:description"
-          content="Turn back the clock with a custom prescription anti-aging formula, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow.
+          content="Turn back the clock with a custom prescription anti-aging cream, designed to reduce wrinkles, boost collagen, and restore your skin’s youthful glow.
 "
         />
         <meta
