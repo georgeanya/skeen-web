@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Acne Formula | Custom Acne Treatment | Skeen</title>
+        <title>Acne Cream | Custom Acne Treatment | Skeen</title>
         <meta name="generator" content="SEOmatic" />
         <link href={favicon.src} rel="shortcut icon" type="image/png" />
         <meta
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Achieve clearer skin with a custom prescription acne formula, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
+          content="Achieve clearer skin with a custom prescription acne cream, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
         />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="robots" content="all" />
@@ -35,9 +35,9 @@ export default function Home() {
         <meta content="en_US" property="og:locale" />
         <meta content="website" property="og:type" />
         <meta content="https://tryskeen.com/" property="og:url" />
-        <meta content="Acne Formula | Custom Acne Treatment | Skeen" property="og:title" />
+        <meta content="Acne Crean | Custom Acne Treatment | Skeen" property="og:title" />
         <meta
-          content="Achieve clearer skin with a custom prescription acne formula, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
+          content="Achieve clearer skin with a custom prescription acne cream, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
           property="og:description"
         />
         <meta content={metaCard.src} property="og:image" />
@@ -56,10 +56,10 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tryskeen" />
         <meta name="twitter:creator" content="@tryskeen" />
-        <meta name="twitter:title" content="Acne Formula | Custom Acne Treatment | Skeen" />
+        <meta name="twitter:title" content="Acne Cream | Custom Acne Treatment | Skeen" />
         <meta
           name="twitter:description"
-          content="Achieve clearer skin with a custom prescription acne formula, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
+          content="Achieve clearer skin with a custom prescription acne cream, designed specifically for your skin type to treat breakouts, reduce redness, and prevent future acne."
         />
         <meta
           name="twitter:image:src"
