@@ -71,7 +71,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image:src"
-          content={metaCard.src}
+          content={`https://tryskeen.com${metaCard.src}`}
         />
         <meta name="twitter:image:width" content="738" />
         <meta name="twitter:image:height" content="394" />
