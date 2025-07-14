@@ -64,7 +64,7 @@ const Start = () => {
         />
         <meta
           name="twitter:image:src"
-          content="https://tryskeen.com/_next/static/media/skeen-metacard.bfa5bd2e.png"
+          content={`https://tryskeen.com${metaCard.src}`}
         />
         <meta name="twitter:image:width" content="785" />
         <meta name="twitter:image:height" content="394" />
