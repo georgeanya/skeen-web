@@ -92,7 +92,7 @@ const Navbar = () => {
               <ul className="flex flex-col mt-4 bg-gray-50 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
                 <li className="mt-3 mx-[22.5px] ">
                   <Link
-                    href="/all-conditions"
+                    href="/all-treatments"
                     className="text-sm md:text-base md:leading-5 pt-5 text-[#323232] rounded hover:text-blue-700 md:p-0 "
                   >
                     Treatments
@@ -139,7 +139,7 @@ const Navbar = () => {
           ) : (
             <ul className="pt-5">
               <li>
-                <Link href="/all-conditions" className="block text-sm py-4">
+                <Link href="/all-treatments" className="block text-sm py-4">
                   Treatments
                 </Link>
               </li>

@@ -75,10 +75,10 @@ const Section1 = () => {
     <div className="px-5 md:px-[125px] md:pt-28 pt-20 md:pb-[96px] pb-20 bg-[#222E50] text-white md:flex ">
       <div className="">
         <p className="text-[28px] leading-9 md:text-start md:text-[46px] md:leading-[58px] md:w-[360px] font-bold  md:mr-0  mb-[36px]">
-          FAQs about the anti-aging formula
+          FAQs about the anti-aging cream
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
-          <Link href="/all-treatments">
+          <Link href="https://paystack.com/buy/skeen-anti-aging-formula">
             <SkeenButton className="text-xs md:text-base font-medium">
               Get my cream now
             </SkeenButton>
@@ -91,7 +91,7 @@ const Section1 = () => {
         ))}
       </div>
       <div className=" md:hidden">
-        <Link href="/all-treatments">
+        <Link href="https://paystack.com/buy/skeen-anti-aging-formula">
           <SkeenButton className="text-sm md:text-base font-medium">
             Get my cream now
           </SkeenButton>

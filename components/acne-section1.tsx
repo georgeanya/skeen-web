@@ -78,7 +78,7 @@ const Section1 = () => {
           FAQs about the acne cream
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
-          <Link href="/all-treatments">
+          <Link href="https://paystack.com/buy/skeen-acne-formula">
             <SkeenButton className="text-xs md:text-base font-medium">
               Get my cream now
             </SkeenButton>
@@ -91,7 +91,7 @@ const Section1 = () => {
         ))}
       </div>
       <div className=" md:hidden">
-        <Link href="/all-treatments">
+        <Link href="https://paystack.com/buy/skeen-acne-formula">
           <SkeenButton className="text-sm md:text-base font-medium">
             Get my cream now
           </SkeenButton>

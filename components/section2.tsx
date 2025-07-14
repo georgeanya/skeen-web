@@ -58,11 +58,11 @@ const Section2 = () => {
             </div>
             <div className="flex justify-between">
               <p className="text-[20px] leading-[25px] md:text-[26px] md:leading-[32px] text-[#333D47] font-medium">
-                Get your skincare formula
+                Get your custom cream
               </p>
             </div>
             <p className="text-base md:text-[18px] md:leading-[26px] leading-[22px] text-[#333D47] mt-2 md:mt-4">
-              Receive your personalized cream for your skin tailored to help you
+              Receive your custom cream for your skin formulated to help you
               achieve your skin goals
             </p>
           </div>
