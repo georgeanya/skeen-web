@@ -78,9 +78,9 @@ const Section1 = () => {
           FAQs about the anti-aging formula
         </p>
         <div className="md:mt-[37px] mt-[28px] hidden md:flex">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+          <Link href="/all-treatments">
             <SkeenButton className="text-xs md:text-base font-medium">
-              Get my formula now
+              Get my cream now
             </SkeenButton>
           </Link>
         </div>
@@ -91,9 +91,9 @@ const Section1 = () => {
         ))}
       </div>
       <div className=" md:hidden">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek0GpD3HYeD6VRRTr_nP-r5--4r_GoeL-m_XkUfoJ1mxWTUw/viewform">
+        <Link href="/all-treatments">
           <SkeenButton className="text-sm md:text-base font-medium">
-            Start your consultation
+            Get my cream now
           </SkeenButton>
         </Link>
       </div>
